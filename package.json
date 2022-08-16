@@ -13,6 +13,8 @@
     "@emotion/styled": "^11.10.0",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.10.0",
+    "components": "^0.1.0",
+    "material-kit-react": "^1.10.0",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
