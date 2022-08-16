@@ -3,19 +3,17 @@ import { Header } from "./Header/Header";
 import { Footer } from "./Footer/Footer";
 import { FunctionComponent } from "react";
 
-const Layout = ({ children })=> {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div>
-        <div>{children}</div>
-      </div>
+      <main className={"container"}>{children}</main>
       <Footer />
     </>
   );
 };
 
-export const withLayout =(Component) => {
+export const withLayout = (Component) => {
   return function withLayoutComponent(props) {
     return (
       <Layout>

@@ -1,7 +1,7 @@
-import styles from "./Footer.module.scss";
+
+import styles from "./Footer.module.css";
+import ArrowIcon from "./chevron-rt.svg";
 
 export const Footer = ({ ...props }) => {
-  return <div {...props}>
-    Footer
-  </div>;
+  return <footer className={'container'} {...props}>Footer<span><ArrowIcon/></span></footer>;
 };
