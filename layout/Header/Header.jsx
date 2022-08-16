@@ -1,5 +1,9 @@
-import styles from "./Header.module.css";
+import React from 'react';
 
-export const Header = ({ ...props }) => {
-  return <div {...props}>Header</div>;
+export const Header= () => {
+    return (
+        <section>
+            <img src="../.././public/logo.svg" alt="logo"/>
+        </section>
+    );
 };

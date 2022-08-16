@@ -1,4 +1,4 @@
-import styles from "./Layout.module.css";
+import styles from "./Layout.module.scss";
 import { Header } from "./Header/Header";
 import { Footer } from "./Footer/Footer";
 import { FunctionComponent } from "react";
