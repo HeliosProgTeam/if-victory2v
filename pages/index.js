@@ -1,4 +1,4 @@
-import {withLayout} from "../layout/Layout";
+import {withLayout} from "../src/layout/Layout";
 
 function Home() {
   return (

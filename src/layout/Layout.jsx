@@ -1,7 +1,5 @@
-import styles from "./Layout.module.scss";
-import { Header } from "./Header/Header";
-import { Footer } from "./Footer/Footer";
-import { FunctionComponent } from "react";
+import {Header} from "./Header/Header";
+import {Footer} from "./Footer/Footer";
 
 const Layout = ({ children }) => {
   return (
