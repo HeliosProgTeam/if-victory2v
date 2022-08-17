@@ -1,37 +1,20 @@
-import React from 'react'
-import Logo from './logo.svg'
+import React from "react";
+import Logo from "../../components/logo/Logo";
+import Nav from "../../components/nav/Nav";
+import Social from "../../components/social/Social";
 
-export const Header = ({...props}) => {
-    return (
-        <header className="header" {...props}>
-            <div className="logo">
-                <Logo/>
-            </div>
-            <div className="nav-wrapper">
-                <ul className="nav">
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">
-                            Головна
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">
-                            Про нас
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">
-                            Контакти
-
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">
-                            Реквiзити
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-    );
+export const Header = ({ ...props }) => {
+  return (
+    <header className="header" {...props}>
+      <div className="header__logo">
+        <Logo/>
+      </div>
+      <div className="header__nav">
+        <Nav/>
+      </div>
+      <div className="header__social">
+        <Social/>
+      </div>
+    </header>
+  );
 };

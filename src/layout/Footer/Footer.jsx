@@ -1,3 +1,3 @@
 export const Footer = ({...props}) => {
-    return <footer className={'container'} {...props}>Footer</footer>;
+    return <footer className={'footer'} {...props}>Footer</footer>;
 };

@@ -1,16 +1,16 @@
-import {Header} from "./Header/Header";
-import {Footer} from "./Footer/Footer";
-import {MainSection} from "../sections/MainSection/MainSection";
+import { Header } from "./Header/Header";
+import { Footer } from "./Footer/Footer";
+import { MainSection } from "../sections/MainSection/MainSection";
 
 const Layout = ({ children }) => {
-  return (<>
-          <Header />
-          <div>
-              <main>{children}</main>
-          </div>
-          <Footer />
-  </>
-
+  return (
+    <>
+      <Header />
+      {/*<div className="container">*/}
+        <main>{children}</main>
+      {/*</div>*/}
+      <Footer />
+    </>
   );
 };
 

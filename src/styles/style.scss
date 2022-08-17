@@ -1,39 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-body{
+/*------------------------START CODE---------------------*/
+
+body {
   scroll-behavior: smooth;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
   font-weight: 500;
   background-color: #fff;
 }
 
-.container{
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-/*------------------------START SECTION TITLE SETTINGS---------------------*/
-
-
-/*------------------------END SECTION TITLE SETTINGS---------------------*/
-@import "Layout";
-@import "Header";
-@import "Footer";
-@import "MainSection";
-
-h1{
-  font-family: 'Manrope';
+h1 {
+  //font-family: 'Manrope';
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
   line-height: 35px;
 }
 
-h3{
-  font-family: 'Manrope';
+h3 {
+  //font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 35px;
 }
+
+section{
+  min-height:100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo {
+  fill: white;
+}
+
+.nav {
+  &__list {
+    display: flex;
+    text-align: center;
+    & li:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+}
+
+/*------------------------END CODE---------------------*/
+@import "Layout";
+@import "Header";
+@import "Footer";
+@import "MainSection";

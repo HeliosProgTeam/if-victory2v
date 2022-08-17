@@ -1,40 +1,128 @@
-.main{
-  width: 100%;
-  height: 100%;
-  display: flex;
+.home {
+  padding: 0 30px;
+  &__bg {
+    position: relative;
+    min-height: 100vh;
+  }
+  &__content {
+    position: absolute;
+    left: 20px;
+    top: 110px;
+    max-width: 760px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    padding-bottom: 10px;
+  }
+
+  &__desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+
+  &__img {
+    position: absolute;
+    border-radius: 10px;
+    &--primary {
+      top: 80px;
+      right: 0;
+      height: 280px;
+      width: 580px;
+      overflow: hidden;
+
+      svg {
+        height: 450px;
+        width: 600px;
+        object-fit: cover;
+        rect {
+          height: inherit;
+          width: inherit;
+        }
+      }
+    }
+    &--secondary {
+      bottom: 20px;
+      right: 150px;
+      height: 280px;
+      width: 450px;
+      overflow: hidden;
+
+      svg {
+        margin-top: -170px;
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+        rect {
+          height: inherit;
+          width: inherit;
+        }
+      }
+    }
+    &--three {
+      bottom: 40px;
+      left: 40px;
+      height: 280px;
+      width: 650px;
+      overflow: hidden;
+
+      svg {
+        margin-top: -170px;
+        height: 500px;
+        width: 650px;
+        object-fit: cover;
+        rect {
+          height: inherit;
+          width: inherit;
+        }
+      }
+    }
+  }
 }
 
-.main-info{
-  max-width:50vw;
-
-  padding: 200px 24px 0 118px;
-}
-
-.h1{
-  padding-bottom: 40px;
-}
-
-.h3{
-  padding-bottom: 20px;
-}
-
-.main-content{
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-
-  word-wrap: break-word;
-}
-
-.main-img-wrap{
-  width: 50vw;
-  height: 100%;
-}
-
-.main-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+//.home {
+//  width: 100%;
+//  height: 100%;
+//  display: flex;
+//
+//  &__info {
+//    max-width: 50vw;
+//
+//    padding: 200px 24px 0 118px;
+//  }
+//
+//  &__title {
+//    padding-bottom: 40px;
+//  }
+//
+//  &__subtitle {
+//    padding-bottom: 20px;
+//  }
+//
+//  &__desc {
+//    font-family: "Manrope";
+//    font-style: normal;
+//    font-weight: 500;
+//    font-size: 20px;
+//    line-height: 20px;
+//
+//    word-wrap: break-word;
+//  }
+//
+//  &__img {
+//    width: 50vw;
+//    height: 100%;
+//
+//    svg{
+//      width: 100%;
+//      height: 100%;
+//      object-fit: cover;
+//    }
+//  }
+//}

@@ -3,10 +3,10 @@ import {MainSection} from "../src/sections/MainSection/MainSection";
 
 function Home() {
   return (
-    <div>
+    <>
         <MainSection />
-        <MainSection />
-    </div>
+        {/*<MainSection />*/}
+    </>
   )
 }
 
