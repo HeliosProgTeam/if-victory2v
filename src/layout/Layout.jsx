@@ -1,13 +1,16 @@
 import {Header} from "./Header/Header";
 import {Footer} from "./Footer/Footer";
+import {MainSection} from "../sections/MainSection/MainSection";
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      <main className={"container"}>{children}</main>
-      <Footer />
-    </>
+  return (<>
+          <Header />
+          <div>
+              <main>{children}</main>
+          </div>
+          <Footer />
+  </>
+
   );
 };
 

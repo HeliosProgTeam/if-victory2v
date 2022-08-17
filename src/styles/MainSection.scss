@@ -1,0 +1,40 @@
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.main-info{
+  max-width:50vw;
+
+  padding: 200px 24px 0 118px;
+}
+
+.h1{
+  padding-bottom: 40px;
+}
+
+.h3{
+  padding-bottom: 20px;
+}
+
+.main-content{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+
+  word-wrap: break-word;
+}
+
+.main-img-wrap{
+  width: 50vw;
+  height: 100%;
+}
+
+.main-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
