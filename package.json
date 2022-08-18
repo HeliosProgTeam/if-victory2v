@@ -16,8 +16,10 @@
     "components": "^0.1.0",
     "material-kit-react": "^1.10.0",
     "next": "12.2.5",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-lazy-load-image-component": "^1.5.5"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.3.1",

@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  // images: {
+  //   domains: ['unsplash.com'],
+  //   // domains: ['admin.arenda.yachts'],
+  // },
   webpack(config, options) {
     config.module.rules.push({
       use: [

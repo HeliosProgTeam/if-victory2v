@@ -12,9 +12,9 @@ export const Header = ({ ...props }) => {
       <div className="header__nav">
         <Nav/>
       </div>
-      <div className="header__social">
-        <Social/>
-      </div>
+      {/*<div className="header__social">*/}
+      {/*  <Social/>*/}
+      {/*</div>*/}
     </header>
   );
 };
