@@ -1,10 +1,12 @@
-import {withLayout} from "../layout/Layout";
+import {withLayout} from "../src/layout/Layout";
+import {MainSection} from "../src/sections/MainSection/MainSection";
 
 function Home() {
   return (
-    <div>
-
-    </div>
+    <>
+        <MainSection />
+        {/*<MainSection />*/}
+    </>
   )
 }
 

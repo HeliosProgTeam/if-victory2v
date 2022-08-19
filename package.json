@@ -11,14 +11,21 @@
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.10.0",
+    "components": "^0.1.0",
+    "material-kit-react": "^1.10.0",
     "next": "12.2.5",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-lazy-load-image-component": "^1.5.5"
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.3.1",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "sass": "^1.54.4"
-  }
+  },
+  "packageManager": "yarn@3.2.2"
 }
