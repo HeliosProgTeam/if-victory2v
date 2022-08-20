@@ -1,25 +1,23 @@
-import { Header } from "./Header/Header";
-import { Footer } from "./Footer/Footer";
-import { MainSection } from "../sections/MainSection/MainSection";
+import {Header} from "./Header/Header";
+import {Footer} from "./Footer/Footer";
 
-const Layout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      {/*<div className="container">*/}
-        <main>{children}</main>
-      {/*</div>*/}
-      <Footer />
-    </>
-  );
+const Layout = ({children}) => {
+    return (
+        <>
+            <Header/>
+            <main>{children}</main>
+
+            <Footer/>
+        </>
+    );
 };
 
 export const withLayout = (Component) => {
-  return function withLayoutComponent(props) {
-    return (
-      <Layout>
-        <Component {...props} />
-      </Layout>
-    );
-  };
+    return function withLayoutComponent(props) {
+        return (
+            <Layout>
+                <Component {...props} />
+            </Layout>
+        );
+    };
 };

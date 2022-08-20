@@ -64,7 +64,7 @@ section {
       text-align: center;
       padding: 0 10px;
       margin-right: 30px;
-
+      
 
     }
   }
@@ -114,8 +114,7 @@ section {
     }
 
     &:focus{
-      outline: none;
-      background-color: red;
+      text-decoration: underline;
     }
   }
 }
@@ -128,6 +127,40 @@ section {
   }
 }
 
+.divider{
+  margin-top: 100px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+
+  &:after{
+    display: block;
+    width:100%;
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #313131;
+    top:50%;
+    left: 45px;
+  }
+  &:before{
+    display: block;
+    width:100%;
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #313131;
+    top:50%;
+    right: 45px;
+  }
+  &__icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #000000;
+    top: 50%;
+    left: 50%;
+  }
+}
 
 /*------------------------END CODE---------------------*/
 @import "Layout";
