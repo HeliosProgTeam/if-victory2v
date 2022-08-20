@@ -156,19 +156,20 @@ section {
   align-items: center;
 
   &__icon {
-    max-width: 40px;
+    max-width: 52px;
     width: 100%;
-    height: 40px;
+    height: 50px;
     padding: 5px;
     border: 2px solid #000000;
 
-    span {
-      height: inherit !important;
-      width: inherit !important;
 
-      img {
-        object-fit: cover;
-      }
+    span {
+      height: 38px !important;
+      width: 38px !important;
+    //
+    //  img {
+    //    object-fit: cover;
+    //  }
     }
   }
 
@@ -186,3 +187,4 @@ section {
 @import "Footer";
 @import "MainSection";
 @import "About";
+@import "Contacts";

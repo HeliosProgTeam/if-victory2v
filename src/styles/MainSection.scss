@@ -1,7 +1,7 @@
 $height-gray-box-top: 308px;
-$height-gray-box-bottom: 180px;
+$height-gray-box-bottom: 169px;
 $box-grayscale:100%;
-$box-gray-background-color:rgba(0, 0, 0, 0.4);
+$box-gray-background-color:rgba(5, 5, 5, 0.2);
 
 .home {
   padding-top: 70px;
@@ -27,12 +27,13 @@ $box-gray-background-color:rgba(0, 0, 0, 0.4);
     z-index: 15;
     min-height: $height-gray-box-top;
     background-color:$box-gray-background-color;
-    backdrop-filter: grayscale($box-grayscale);
-    padding-top: 33px;
-    padding-left: 65px;
+    backdrop-filter: grayscale($box-grayscale) blur(3px);
+    padding:33px 10px;
+    padding-bottom: 0px;
     margin-bottom: calc(100vh - #{$height-gray-box-top} - 70px);
   }
   &__info {
+    margin: 0 auto;
     position: relative;
     text-align: center;
     color: white;
@@ -129,7 +130,8 @@ $box-gray-background-color:rgba(0, 0, 0, 0.4);
     max-height: $height-gray-box-bottom;
     height: $height-gray-box-bottom;
     background-color: $box-gray-background-color;
-    backdrop-filter: grayscale($box-grayscale);
+    backdrop-filter: grayscale($box-grayscale) blur(3px);
+    //filter: blur(5px);
     z-index: 20;
   }
 }

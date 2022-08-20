@@ -3,9 +3,9 @@ import Divider from "../../components/divider/Divider";
 
 const Contacts = () => {
   return (
-    <div>
+    <section className={'contacts'}>
       <Divider />
-    </div>
+    </section>
   );
 };
 
