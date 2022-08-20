@@ -115,14 +115,14 @@ $box-gray-background-color:rgba(0, 0, 0, 0.4);
     width: 100%;
     height: calc(100vh - 70px + #{$height-gray-box-bottom});
 
-    span {
-      height: inherit !important;
-      width: inherit !important;
-
-      img {
-        object-fit: cover;
-      }
-    }
+    //span {
+    //  height: inherit !important;
+    //  width: inherit !important;
+    //
+    //  img {
+    //    object-fit: cover;
+    //  }
+    //}
   }
 
   &__bottom {

@@ -33,14 +33,13 @@
           height: 100%;
           width: 100%;
 
-          span {
-            height: inherit !important;
-            width: inherit !important;
-
-            img {
-              object-fit: cover;
-            }
-          }
+          //span {
+          //  height: inherit !important;
+          //  width: inherit !important;
+          //
+          //  img {
+          //    object-fit: cover;          //  }
+          //}
         }
 
         &__title {

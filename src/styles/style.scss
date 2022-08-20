@@ -26,6 +26,19 @@ section {
   min-height: 100vh;
 }
 
+.next-img{
+  height: inherit;
+  width: inherit;
+  span {
+    height: inherit !important;
+    width: inherit !important;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -37,6 +50,8 @@ section {
   align-items: center;
   &__img {
     margin-right: 10px;
+    width: 70px;
+    height: 70px;
   }
   &__title {
     font-family: "Crimson Pro", serif;
@@ -164,9 +179,6 @@ section {
     width: calc(100% - 40px);
     border-bottom: 3px solid #313131;
   }
-}
-
-.next-img {
 }
 /*------------------------END CODE---------------------*/
 @import "Layout";
