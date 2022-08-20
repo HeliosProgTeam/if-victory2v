@@ -1,3 +1,8 @@
+$height-gray-box-top: 308px;
+$height-gray-box-bottom: 180px;
+$box-grayscale:100%;
+$box-gray-background-color:rgba(0, 0, 0, 0.4);
+
 .home {
   padding-top: 70px;
   //display: flex;
@@ -8,35 +13,30 @@
   //background-repeat: no-repeat;
   //background-size: cover;
 
-
   &__bg {
     //display: flex;
     //align-items: center;
     //justify-content: space-evenly;
     position: relative;
-    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px);
     //display: flex;
     //flex-direction: column;
     //justify-content: center;
-
   }
-  &__info-wrapper{
+  &__info-wrapper {
     z-index: 15;
-    min-height: 308px;
-    background-color: rgba(0,0,0,.4);
-    //filter: grayscale(100%);
-    backdrop-filter: grayscale(100%);
+    min-height: $height-gray-box-top;
+    background-color:$box-gray-background-color;
+    backdrop-filter: grayscale($box-grayscale);
     padding-top: 33px;
     padding-left: 65px;
-    margin-bottom: calc(100vh - 308px - 180px - 70px);
+    margin-bottom: calc(100vh - #{$height-gray-box-top} - 70px);
   }
   &__info {
     position: relative;
-    margin-right: 60px;
-    max-width: 470px;
     text-align: center;
-    //background-color: rgba(225, 225, 225, 0.6);
     color: white;
+    width: fit-content;
     border-radius: 0 5px 0px 5px;
     &:before,
     &:after,
@@ -59,7 +59,8 @@
     }
 
     &-inner {
-      max-width: 45vw;
+      max-width: 470px;
+      width: 100%;
       padding: 40px;
       position: relative;
       &:before,
@@ -100,33 +101,35 @@
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.005em;
-    color: #E0E0E0;
+    color: #e0e0e0;
   }
 
   &__img-bg {
     position: absolute;
     z-index: -1;
     top: 0;
+    display: block;
     bottom: 0;
     left: 0;
     right: 0;
+    width: 100%;
+    height: calc(100vh - 70px + #{$height-gray-box-bottom});
 
-    span{
-      height: 100% !important;
-    }
-    img{
-      object-fit: cover;
-      height: 100%;
+    span {
+      height: inherit !important;
+      width: inherit !important;
+
+      img {
+        object-fit: cover;
+      }
     }
   }
 
-
-  &__bottom{
-
-    max-height: 180px;
-    height: 180px;
-    background-color: rgba(0,0,0,.4);
-    backdrop-filter: grayscale(100%);
+  &__bottom {
+    max-height: $height-gray-box-bottom;
+    height: $height-gray-box-bottom;
+    background-color: $box-gray-background-color;
+    backdrop-filter: grayscale($box-grayscale);
     z-index: 20;
   }
 }

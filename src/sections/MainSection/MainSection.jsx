@@ -1,5 +1,5 @@
 import React from "react";
-import CharityImg from "./bg.jpg";
+import BgImg from "./bg.jpg";
 import ImageNext from "next/image";
 import Image from "../../components/Image";
 
@@ -20,7 +20,7 @@ export const MainSection = ({ ...props }) => {
         </div>
         <div className="home__img-bg">
           {/*<Image width={300} height={200} src={MainImg} alt="image"/>*/}
-          <ImageNext src={CharityImg} alt="image" />
+          <ImageNext src={BgImg} alt="image" />
         </div>
         <div className="home__bottom"></div>
       </div>
