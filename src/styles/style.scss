@@ -154,6 +154,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px 0;
 
   &__icon {
     max-width: 52px;
@@ -179,6 +180,33 @@ section {
     display: block;
     width: calc(100% - 40px);
     border-bottom: 3px solid #313131;
+  }
+}
+
+.media{
+  margin-bottom: 90px;
+  &__item{
+    display: flex;
+  }
+  &__icon{
+    margin-right: 5px ;
+  }
+  &__text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #9A9999;
+  }
+}
+
+.developers{
+  display: flex;
+  justify-content: space-between;
+  &__media{
+    display: flex;
   }
 }
 /*------------------------END CODE---------------------*/
