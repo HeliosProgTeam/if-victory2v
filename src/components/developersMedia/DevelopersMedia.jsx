@@ -14,22 +14,22 @@ const DevelopersMedia = () => {
                 © {(new Date().getFullYear())} Helios, Inc. All Rights reserved
             </span>
             <div className="developers__media">
-                <div className="developers_item">
+                <div className="developers__item">
                     <a href="#">
                         <Img src={Instagram} alt={"media"}/>
                     </a>
                 </div>
-                <div className="developers_item">
+                <div className="developers__item">
                     <a href="#">
                         <Img src={Twitter} alt={"media"}/>
                     </a>
                 </div>
-                <div className="developers_item">
+                <div className="developers__item">
                     <a href="#">
                         <Img src={Telegram} alt={"media"}/>
                     </a>
                 </div>
-                <div className="developers_item">
+                <div className="developers__item">
                     <a href="#">
                         <Img src={Github} alt={"media"}/>
                     </a>

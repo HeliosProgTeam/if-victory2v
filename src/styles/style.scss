@@ -22,6 +22,19 @@ h3 {
   line-height: 35px;
 }
 
+h4{
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+
+  color: #000000;
+
+  margin-bottom: 15px;
+}
+
 section {
   min-height: 100vh;
 }
@@ -183,32 +196,7 @@ section {
   }
 }
 
-.media{
-  margin-bottom: 90px;
-  &__item{
-    display: flex;
-  }
-  &__icon{
-    margin-right: 5px ;
-  }
-  &__text{
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 28px;
-    letter-spacing: 0.005em;
-    color: #9A9999;
-  }
-}
 
-.developers{
-  display: flex;
-  justify-content: space-between;
-  &__media{
-    display: flex;
-  }
-}
 /*------------------------END CODE---------------------*/
 @import "Layout";
 @import "Header";
