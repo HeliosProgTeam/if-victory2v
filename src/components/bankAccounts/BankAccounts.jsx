@@ -29,7 +29,22 @@ export default function BankAccounts({ className }) {
 
   return (
     <div className={"bank-accounts"}>
-      <Button onClick={handleOpen} className={className}>
+      <Button
+        onClick={handleOpen}
+        style={{
+          fontWeight:" 600",
+          fontSize: "20px",
+          height: "42px",
+          lineHeight: "42px",
+          color:" inherit",
+          textTransform:" capitalize",
+          padding: "0",
+          fontFamily: '"Jost", serif',
+          letterSpacing: "0.005em",
+          zIndex: "1",
+        }}
+        // className={className}
+      >
         Реквiзити
       </Button>
       <Modal
