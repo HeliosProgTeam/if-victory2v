@@ -1,4 +1,35 @@
-.contacts{
+.contacts {
   padding: 65px 70px 117px;
   background-color: #F0F0F0;
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    height: 290px;
+    width: 510px;
+
+    &--left{
+      box-shadow: inset 100px 4px 50px rgba(255, 167, 35, 0.5);
+      margin-right: 110px;
+    }
+
+    &--right{
+      margin-left: 110px;
+      box-shadow: inset 0px -100px 50px rgba(255, 167, 35, 0.6);
+    }
+  }
+
+  &__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #555555;
+
+  }
 }
