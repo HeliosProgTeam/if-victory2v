@@ -10,7 +10,6 @@ export const MainSection = ({ ...props }) => {
         <div className="home__info-wrapper">
           <div className="home__info">
             <div className="home__info-inner">
-              {/*<h2 className="home__subtitle">Вiтя гей</h2>*/}
               <h1 className="home__title">Благодiйний фонд IФ-ВIКТОРI</h1>
               <p className="home__desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

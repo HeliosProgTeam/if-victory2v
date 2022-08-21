@@ -23,9 +23,9 @@ const style = {
 };
 
 export default function BankAccounts({ className }) {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const [openModal, setOpenModal] = React.useState(false);
+  const handleOpen = () => setOpenModal(true);
+  const handleClose = () => setOpenModal(false);
 
   return (
     <div className={"bank-accounts"}>
@@ -33,7 +33,7 @@ export default function BankAccounts({ className }) {
         Реквiзити
       </Button>
       <Modal
-        open={open}
+        open={openModal}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"

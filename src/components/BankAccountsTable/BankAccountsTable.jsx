@@ -49,12 +49,12 @@ export default function BankAccountsTable() {
     <div className={"table"} style={{display:"flex",flexWrap:"wrap",justifyContent:"center"}}>
       {data.map((table) => {
         return (
-          <div className="table__wrap"style={{marginRight:"10px"}}>
+          <div className="table__wrap" key={table.title} style={{marginRight:"10px"}}>
             <p className="table__title">{table.title}</p>
             {/*<div className="table__wrap" >*/}
               {table.rows.map((row) => {
                 return (
-                  <div className={"table__row"} style={{ whiteSpace: "pre-line" }}>
+                  <div className={"table__row"} key={table.title+row.head} style={{ whiteSpace: "pre-line" }}>
                     <div className="table__head">
                       <p>{row.head}</p>
                     </div>
