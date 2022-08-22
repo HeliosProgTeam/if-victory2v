@@ -3,8 +3,10 @@ import Instagram from './instagram.svg'
 import Twitter from './twitter.svg'
 import Telegram from './telegram.svg'
 import Github from './github.svg'
-
-
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import Img from '../../components/Image'
 
 const DevelopersMedia = () => {
@@ -15,23 +17,27 @@ const DevelopersMedia = () => {
             </span>
             <div className="developers__media">
                 <div className="developers__item">
-                    <a href="#">
-                        <Img src={Instagram} alt={"media"}/>
+                    <a href="#" className={'developers__icon '}>
+                        {/*<Img src={Instagram} alt={"media"}/>*/}
+                      <InstagramIcon style={{fontSize:"inherit"}}/>
                     </a>
                 </div>
                 <div className="developers__item">
-                    <a href="#">
-                        <Img src={Twitter} alt={"media"}/>
+                    <a href="#" className={'developers__icon '}>
+                        {/*<Img src={Twitter} alt={"media"}/>*/}
+                      <TwitterIcon style={{fontSize:"inherit"}}/>
                     </a>
                 </div>
                 <div className="developers__item">
-                    <a href="#">
-                        <Img src={Telegram} alt={"media"}/>
+                    <a href="#" className={'developers__icon developers__icon--telegram'}>
+                        {/*<Img src={Telegram} alt={"media"}/>*/}
+                      <TelegramIcon style={{fontSize:"inherit"}}/>
                     </a>
                 </div>
                 <div className="developers__item">
-                    <a href="#">
-                        <Img src={Github} alt={"media"}/>
+                    <a href="#" className={'developers__icon '}>
+                        {/*<Img src={Github} alt={"media"}/>*/}
+                      <GitHubIcon style={{fontSize:"inherit"}}/>
                     </a>
                 </div>
             </div>

@@ -297,10 +297,6 @@ section {
     span {
       height: 38px !important;
       width: 38px !important;
-      //
-      //  img {
-      //    object-fit: cover;
-      //  }
     }
   }
 
@@ -315,9 +311,8 @@ section {
 
 
 /*------------------------END CODE---------------------*/
-@import "Layout";
 @import "Header";
-@import "Footer";
 @import "MainSection";
 @import "About";
 @import "Contacts";
+@import "Footer";

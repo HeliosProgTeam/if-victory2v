@@ -1,8 +1,8 @@
 
 import LocalPhoneSharpIcon from '@mui/icons-material/LocalPhoneSharp';
 
-const Phone = (props) => {
-  const { phone } = props;
+const Phone = ({phone}) => {
+
   return (
     <div className='phone'>
       <div className='phone__icon'>
