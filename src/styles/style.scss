@@ -175,20 +175,21 @@ section {
     line-height: 18px;
     letter-spacing: 0.005em;
   }
-  &__btn-close {
-    display: flex;
-    padding: 5px;
-    color: black;
-    margin-left: auto;
 
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.2);
-    }
-    svg {
-      width: 32px;
-      height: 32px;
-    }
-  }
+  //&__btn-close {
+  //  display: flex;
+  //  padding: 5px;
+  //  color: black;
+  //  margin-left: auto;
+  //
+  //  &:hover {
+  //    background-color: rgba(0, 0, 0, 0.2);
+  //  }
+  //  svg {
+  //    width: 32px;
+  //    height: 32px;
+  //  }
+  //}
 
   &__title {
     font-weight: 800;

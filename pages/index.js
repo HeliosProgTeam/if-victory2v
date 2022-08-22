@@ -8,7 +8,7 @@ function Home() {
     <>
       <MainSection />
       <About />
-      {/*<Contacts/>*/}
+      <Contacts/>
     </>
   );
 }

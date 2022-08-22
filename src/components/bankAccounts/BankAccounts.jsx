@@ -32,12 +32,12 @@ export default function BankAccounts({ className }) {
       <Button
         onClick={handleOpen}
         style={{
-          fontWeight:" 600",
+          fontWeight: " 600",
           fontSize: "20px",
           height: "42px",
           lineHeight: "42px",
-          color:" inherit",
-          textTransform:" capitalize",
+          color: " inherit",
+          textTransform: " capitalize",
           padding: "0",
           fontFamily: '"Jost", serif',
           letterSpacing: "0.005em",
@@ -58,6 +58,23 @@ export default function BankAccounts({ className }) {
             <Button className="bank-accounts__btn-close" onClick={handleClose}>
               <CloseIcon />
             </Button>
+            <style>
+              {`
+            .bank-accounts__btn-close{
+              display: flex;
+              padding: 5px;
+              color: black;
+              margin-left: auto;
+              }
+
+              .bank-accounts__btn-close:hover {
+              background-color: rgba(0, 0, 0, 0.2);
+            }
+             .bank-accounts__btn-close svg {
+              width: 32px;
+              height: 32px;
+            }`}
+            </style>
           </div>
 
           <div className="bank-accounts__wrap">
