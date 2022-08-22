@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Logo from "../../components/logo/Logo";
 import Nav from "../../components/nav/Nav";
 import Phone from "../../components/phone/Phone";
 import Social from "../../components/social/Social";
-import {Menu, MenuItem, useMediaQuery, useTheme} from "@mui/material";
+import { Menu, MenuItem, useMediaQuery, useTheme } from "@mui/material";
 import Button from "@mui/material/Button";
-import ListRoundedIcon from '@mui/icons-material/ListRounded';
+import ListRoundedIcon from "@mui/icons-material/ListRounded";
 
 export const Header = ({ ...props }) => {
   const theme = useTheme();
@@ -40,13 +40,13 @@ export const Header = ({ ...props }) => {
             aria-controls={open ? "basic-menu" : undefined}
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
-            variant={'contained'}
+            variant={"contained"}
             onClick={handleClick}
             style={{
-             padding:"6px 10px"
+              padding: "6px 10px",
             }}
           >
-            <ListRoundedIcon/>
+            <ListRoundedIcon />
           </Button>
           <Menu
             id="basic-menu"
@@ -57,7 +57,9 @@ export const Header = ({ ...props }) => {
               "aria-labelledby": "basic-button",
             }}
           >
-            <Nav onClick={handleClose}/>
+            <div style={{ padding: "10px" }}>
+              <Nav onClick={handleClose} />
+            </div>
           </Menu>
         </div>
       )}
