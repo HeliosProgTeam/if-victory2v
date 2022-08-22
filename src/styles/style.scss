@@ -39,7 +39,7 @@ section {
   min-height: 100vh;
 }
 
-.next-img{
+.next-img {
   height: inherit;
   width: inherit;
   span {
@@ -79,7 +79,6 @@ section {
   &__list {
     display: flex;
     text-align: center;
-
     & li:not(:last-child) {
       margin-right: 40px;
     }
@@ -95,55 +94,159 @@ section {
       text-align: center;
       padding: 0 10px;
       margin-right: 30px;
+
+      &:after,
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 0px solid transparent;
+        width: 0%;
+        height: 0%;
+        transition: all 0.8s ease;
+      }
+
+      &:after {
+        width: 0%;
+        height: 0%;
+        top: 0;
+        left: 0;
+        border-top: 2px solid transparent;
+        border-left: 2px solid transparent;
+      }
+
+      &:before {
+        width: 0%;
+        height: 0%;
+        right: 0;
+        bottom: 0;
+        border-bottom: 2px solid transparent;
+        border-right: 2px solid transparent;
+      }
+
+      &:hover::before,
+      &:hover::after {
+        width: 100%;
+        height: 100%;
+        border-color: #000;
+      }
+
+      &:focus {
+        text-decoration: underline;
+      }
     }
   }
 
   &__link {
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;
+    height: 42px;
+    line-height: 42px;
     color: inherit;
+    text-transform: capitalize;
 
-    &:after,
-    &:before {
-      content: "";
-      position: absolute;
-      display: block;
-      border: 0px solid transparent;
-      width: 0%;
-      height: 0%;
-      transition: all 0.8s ease;
+    &--btn {
+      padding: 0;
+      font-family: "Jost", serif !important;
+      letter-spacing: 0.005em !important;
+      z-index: 1;
+    }
+  }
+}
+
+.bank-accounts {
+  &__header {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+  }
+  &__btn-close {
+    display: flex;
+    padding: 5px;
+    color: black;
+    margin-left: auto;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 0.005em;
+  }
+
+  &__wrap{
+    padding:0 30px;
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-info {
     }
 
-    &:after {
-      width: 0%;
-      height: 0%;
-      top: 0;
-      left: 0;
-      border-top: 2px solid transparent;
-      border-left: 2px solid transparent;
+    &-text {
+      display: flex;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 22px;
+      letter-spacing: 0.005em;
     }
+  }
 
-    &:before {
-      width: 0%;
-      height: 0%;
-      right: 0;
-      bottom: 0;
-      border-bottom: 2px solid transparent;
-      border-right: 2px solid transparent;
-    }
+  &__сolumn {
+    display: inline-block;
 
-    &:hover::before,
-    &:hover::after {
+    &--head {
+      max-width: 200px;
       width: 100%;
-      height: 100%;
-      //border: 1px solid #ffffff;
-      border-color: #000;
     }
+  }
+  &__stamp {
+    width: 200px;
+    height: 200px;
+  }
+}
 
-    &:focus {
-      text-decoration: underline;
-    }
+.table {
+  max-width: fit-content;
+  width: 100%;
+  &__title {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  &__wrap {
+  }
+  &__row {
+    margin-bottom: 10px;
+    display: flex;
+    //flex-wrap: wrap;
+    border: 1px solid black;
+  }
+  &__head {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 15px;
+  }
+  &__value {
+    display: flex;
+    align-items: center;
+    padding: 15px;
   }
 }
 
@@ -176,14 +279,13 @@ section {
     padding: 5px;
     border: 2px solid #000000;
 
-
     span {
       height: 38px !important;
       width: 38px !important;
-    //
-    //  img {
-    //    object-fit: cover;
-    //  }
+      //
+      //  img {
+      //    object-fit: cover;
+      //  }
     }
   }
 

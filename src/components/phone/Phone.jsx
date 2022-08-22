@@ -9,7 +9,7 @@ const Phone = (props) => {
       <LocalPhoneSharpIcon/>
       </div>
       <a className='phone__number' href={`tel:${phone}`}>
-        +38{phone}
+        {phone}
       </a>
     </div>
   );
