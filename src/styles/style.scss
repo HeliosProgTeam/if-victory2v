@@ -1,7 +1,10 @@
 /*------------------------START CODE---------------------*/
 
-body {
+html {
   scroll-behavior: smooth;
+}
+
+body {
   font-family: Manrope, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -35,7 +38,7 @@ h4 {
 }
 
 section {
-  min-height: 100vh;
+  //min-height: 100vh;
 }
 
 .next-img {
@@ -154,12 +157,12 @@ section {
     line-height: 42px;
     color: inherit;
     text-transform: capitalize;
-
+    z-index: 1;
     &--btn {
       padding: 0;
       font-family: "Jost", serif !important;
       letter-spacing: 0.005em !important;
-      z-index: 1;
+
     }
   }
 }

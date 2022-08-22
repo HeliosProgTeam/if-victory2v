@@ -6,17 +6,17 @@ const Nav = ({ ...other }) => {
     <div className="nav">
       <ul className="nav__list">
         <li className="nav__item" {...other}>
-          <a href="#" className="nav__link">
+          <a href="#mainhome" className="nav__link">
             Головна
           </a>
         </li>
         <li className="nav__item" {...other}>
-          <a href="#" className="nav__link">
+          <a href="#aboutsection" className="nav__link">
             Про нас
           </a>
         </li>
         <li className="nav__item" {...other}>
-          <a href="#" className="nav__link">
+          <a href="#contactssection" className="nav__link">
             Контакти
           </a>
         </li>

@@ -5,7 +5,7 @@ import Links from "../../components/links/Links";
 
 export const Footer = ({ ...props }) => {
   return (
-    <footer className={"footer"} {...props}>
+    <footer className={"footer"} id={'contactssection'} {...props}>
       <Links />
       <hr />
       <DevelopersMedia />

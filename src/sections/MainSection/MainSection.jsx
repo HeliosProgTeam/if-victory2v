@@ -5,7 +5,7 @@ import Img from "../../components/Image";
 
 export const MainSection = ({ ...props }) => {
   return (
-    <section className="home" {...props}>
+    <section className="home" id='mainhome' {...props}>
       <div className="home__bg">
         <div className="home__info-wrapper">
           <div className="home__info">
@@ -21,7 +21,7 @@ export const MainSection = ({ ...props }) => {
           {/*<Image width={300} height={200} src={MainImg} alt="image"/>*/}
           <Img src={BgImg} alt="image" />
         </div>
-        <div className="home__bottom"></div>
+        <div className="home__bottom" id="aboutsection"></div>
       </div>
     </section>
     // <section className="home" {...props}>
