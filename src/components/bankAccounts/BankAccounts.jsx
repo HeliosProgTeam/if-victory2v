@@ -9,17 +9,20 @@ import StampImg from "./stamp.jpg";
 import CloseIcon from "@mui/icons-material/Close";
 const style = {
   position: "absolute",
+  display:"flex",
+  flexDirection:"column",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  height: "95%",
+  maxHeight: "95%",
+  height: "100%",
   width: "90%",
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
   padding: "10px",
   paddingTop: "10px",
-  overflowY: "scroll",
+  // overflow:"hidden"
 };
 
 export default function BankAccounts({ className }) {
@@ -61,10 +64,11 @@ export default function BankAccounts({ className }) {
             <style>
               {`
             .bank-accounts__btn-close{
-              display: flex;
-              padding: 5px;
-              color: black;
-              margin-left: auto;
+             display: flex;
+             padding: 5px;
+             color: black;
+             margin:0 auto;
+             width: 100%;
               }
 
               .bank-accounts__btn-close:hover {
@@ -77,7 +81,7 @@ export default function BankAccounts({ className }) {
             </style>
           </div>
 
-          <div className="bank-accounts__wrap">
+          <div className="bank-accounts__wrap" style={{ overflowY: "scroll",overflowX: "hidden", height:"100%"}}>
             <div className="bank-accounts__top">
               <div className="bank-accounts__top-info">
                 <h2 className={"bank-accounts__title"}>

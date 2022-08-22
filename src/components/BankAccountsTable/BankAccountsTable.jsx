@@ -46,10 +46,10 @@ const data = [
 export default function BankAccountsTable() {
   // {title,list}
   return (
-    <div className={"table"} style={{display:"flex",flexWrap:"wrap",justifyContent:"center"}}>
+    <div className={"table"}>
       {data.map((table) => {
         return (
-          <div className="table__wrap" key={table.title} style={{marginRight:"10px"}}>
+          <div className="table__wrap" key={table.title}>
             <p className="table__title">{table.title}</p>
             {/*<div className="table__wrap" >*/}
               {table.rows.map((row) => {

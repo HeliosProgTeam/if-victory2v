@@ -22,8 +22,7 @@ h3 {
   line-height: 35px;
 }
 
-h4{
-
+h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -79,19 +78,16 @@ section {
   &__list {
     display: flex;
     text-align: center;
-    @media screen and (max-width: 600px){
-     flex-direction: column;
-
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
     }
     & li:not(:last-child) {
       margin-right: 40px;
-      @media screen and (max-width: 1100px){
+      @media screen and (max-width: 1100px) {
         margin-right: 20px;
-
       }
-      @media screen and (max-width: 900px){
+      @media screen and (max-width: 900px) {
         margin-right: 0px;
-
       }
     }
     .nav__item {
@@ -174,14 +170,15 @@ section {
     font-size: 18px;
     line-height: 18px;
     letter-spacing: 0.005em;
+    margin-bottom: 10px;
   }
 
   //&__btn-close {
   //  display: flex;
   //  padding: 5px;
   //  color: black;
-  //  margin-left: auto;
-  //
+  //  margin:0 auto;
+  //  width: 100%;
   //  &:hover {
   //    background-color: rgba(0, 0, 0, 0.2);
   //  }
@@ -197,16 +194,31 @@ section {
     line-height: 30px;
     margin-bottom: 15px;
     letter-spacing: 0.005em;
+
+    @media screen and (max-width: 900px) {
+      font-size: 22px;
+    }
   }
 
-  &__wrap{
-    padding:0 30px;
+  &__wrap {
+    padding: 0 30px;
+
+    @media screen and (max-width: 1300px) {
+      padding: 0 15px;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding: 0 5px;
+    }
   }
   &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 20px;
+    }
     &-info {
     }
 
@@ -216,6 +228,16 @@ section {
       font-size: 22px;
       line-height: 22px;
       letter-spacing: 0.005em;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      @media screen and (max-width: 900px) {
+        font-size: 18px;
+      }
+      @media screen and (max-width: 600px) {
+        flex-wrap: wrap;
+      }
     }
   }
 
@@ -225,17 +247,26 @@ section {
     &--head {
       max-width: 200px;
       width: 100%;
+      @media screen and (max-width: 900px) {
+        max-width: 100px;
+      }
     }
   }
   &__stamp {
     width: 200px;
     height: 200px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 15px;    }
   }
 }
 
 .table {
-  max-width: fit-content;
+  max-width: 100%;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
   &__title {
     font-weight: 800;
     font-size: 20px;
@@ -243,12 +274,22 @@ section {
     margin-bottom: 10px;
   }
   &__wrap {
+    max-width: 520px;
+    width: 100%;
+    @media screen and (max-width: 1300px) {
+      max-width: 500px;
+    }
+    @media screen and (max-width: 1185px) {
+      max-width: 100%;
+    }
   }
   &__row {
     margin-bottom: 10px;
     display: flex;
-    //flex-wrap: wrap;
     border: 1px solid black;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
   }
   &__head {
     max-width: 200px;
@@ -257,11 +298,31 @@ section {
     align-items: center;
     border-right: 1px solid black;
     padding: 15px;
+    @media screen and (max-width: 1300px) {
+      padding: 15px 10px;
+    }
+    @media screen and (max-width: 600px) {
+      max-width: 100%;
+      p{
+        text-align: center;
+        width: 100%;
+      }
+      border-right: none;
+      border-bottom: 1px solid black;
+    }
   }
   &__value {
     display: flex;
     align-items: center;
     padding: 15px;
+    @media screen and (max-width: 1300px) {
+      padding: 15px 10px;
+    }
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      text-align: center;
+      word-wrap: anywhere;
+    }
   }
 }
 
@@ -308,7 +369,6 @@ section {
     border-bottom: 3px solid #313131;
   }
 }
-
 
 /*------------------------END CODE---------------------*/
 @import "Header";
