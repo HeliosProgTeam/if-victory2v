@@ -1,35 +1,94 @@
 .contacts {
   padding: 65px 70px 117px;
-  background-color: #F0F0F0;
-
-  &__item {
+  background-color: #f0f0f0;
+  @media screen and (max-width: 900px) {
+    padding: 30px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 30px 15px;
+  }
+  &__row {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
   }
 
   &__img {
+    position: relative;
     height: 290px;
-    width: 510px;
+    max-width: 510px;
+    width: 100%;
 
-    &--left{
-      box-shadow: inset 100px 4px 50px rgba(255, 167, 35, 0.5);
-      margin-right: 110px;
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      height: 100%;
+      width: 100%;
     }
 
-    &--right{
-      margin-left: 110px;
-      box-shadow: inset 0px -100px 50px rgba(255, 167, 35, 0.6);
+    &--left {
+      &:before {
+        box-shadow: inset 100px 4px 50px rgba(255, 167, 35, 0.5);
+      }
+      margin-right: 20px;
+      @media screen and (max-width: 600px) {
+        margin: 0;
+        margin-bottom: 20px;
+      }
     }
+
+    &--right {
+      &:before {
+        box-shadow: inset 0px -100px 50px rgba(255, 167, 35, 0.6);
+      }
+      margin-left: 20px;
+      @media screen and (max-width: 600px) {
+        margin: 0;
+        margin-top: 20px;      }
+    }
+
   }
 
+  //&__item {
+  //  display: flex;
+  //  align-items: center;
+  //}
+  //
+  //&__img {
+  //  height: 290px;
+  //  width: 510px;
+  //
+  //  img {
+  //    z-index: -1;
+  //  }
+  //
+  //  &--left {
+  //    box-shadow: inset 100px 4px 50px rgba(255, 167, 35, 0.5);
+  //    margin-right: 110px;
+  //  }
+  //
+  //  &--right {
+  //    box-shadow: inset 0px -100px 50px rgba(255, 167, 35, 0.6);
+  //    margin-left: 110px;
+  //  }
+  //}
+
   &__text {
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.005em;
     color: #555555;
-
+    max-width: 678px;
+    width: 100%;
   }
 }

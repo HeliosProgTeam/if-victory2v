@@ -31,6 +31,9 @@ $box-gray-background-color:rgba(5, 5, 5, 0.2);
     padding:33px 10px;
     padding-bottom: 0px;
     margin-bottom: calc(100vh - #{$height-gray-box-top} - 70px);
+    @media screen and (max-width: 600px){
+      padding:50px 10px;
+    }
   }
   &__info {
     margin: 0 auto;
@@ -64,6 +67,13 @@ $box-gray-background-color:rgba(5, 5, 5, 0.2);
       width: 100%;
       padding: 40px;
       position: relative;
+      @media screen and (max-width: 900px){
+        max-width: 400px;
+      }
+      @media screen and (max-width: 600px){
+        padding: 30px 30px;
+        max-width: 300px;
+      }
       &:before,
       &:after {
         width: 1px;
@@ -86,6 +96,12 @@ $box-gray-background-color:rgba(5, 5, 5, 0.2);
     font-size: 28px;
     line-height: 35px;
     letter-spacing: 0.005em;
+    @media screen and (max-width: 900px){
+      font-size: 30px;
+    }
+    @media screen and (max-width: 600px){
+      font-size: 24px;
+    }
   }
 
   &__title {
@@ -95,6 +111,11 @@ $box-gray-background-color:rgba(5, 5, 5, 0.2);
     margin-bottom: 8px;
     letter-spacing: 0.005em;
     text-transform: capitalize;
+    @media screen and (max-width: 900px){
+      font-size: 30px;
+    }@media screen and (max-width: 600px){
+      font-size: 24px;
+    }
   }
 
   &__desc {
@@ -104,6 +125,12 @@ $box-gray-background-color:rgba(5, 5, 5, 0.2);
     letter-spacing: 0.005em;
     color: #e0e0e0;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 900px){
+      font-size: 20px;
+    }@media screen and (max-width: 600px){
+      font-size: 16px;
+    }
   }
 
   &__img-bg {

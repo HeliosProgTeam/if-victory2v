@@ -9,31 +9,49 @@ import StampImg from "./stamp.jpg";
 import CloseIcon from "@mui/icons-material/Close";
 const style = {
   position: "absolute",
+  display:"flex",
+  flexDirection:"column",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  height: "95%",
+  maxHeight: "95%",
+  height: "100%",
   width: "90%",
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
   padding: "10px",
   paddingTop: "10px",
-  overflowY: "scroll",
+  // overflow:"hidden"
 };
 
 export default function BankAccounts({ className }) {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const [openModal, setOpenModal] = React.useState(false);
+  const handleOpen = () => setOpenModal(true);
+  const handleClose = () => setOpenModal(false);
 
   return (
     <div className={"bank-accounts"}>
-      <Button onClick={handleOpen} className={className}>
+      <Button
+        onClick={handleOpen}
+        style={{
+          fontWeight: " 600",
+          fontSize: "20px",
+          height: "42px",
+          lineHeight: "42px",
+          color: " inherit",
+          textTransform: " capitalize",
+          padding: "0",
+          fontFamily: '"Jost", serif',
+          letterSpacing: "0.005em",
+          zIndex: "1",
+        }}
+        // className={className}
+      >
         Реквiзити
       </Button>
       <Modal
-        open={open}
+        open={openModal}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
@@ -43,9 +61,27 @@ export default function BankAccounts({ className }) {
             <Button className="bank-accounts__btn-close" onClick={handleClose}>
               <CloseIcon />
             </Button>
+            <style>
+              {`
+            .bank-accounts__btn-close{
+             display: flex;
+             padding: 5px;
+             color: black;
+             margin:0 auto;
+             width: 100%;
+              }
+
+              .bank-accounts__btn-close:hover {
+              background-color: rgba(0, 0, 0, 0.2);
+            }
+             .bank-accounts__btn-close svg {
+              width: 32px;
+              height: 32px;
+            }`}
+            </style>
           </div>
 
-          <div className="bank-accounts__wrap">
+          <div className="bank-accounts__wrap" style={{ overflowY: "scroll",overflowX: "hidden", height:"100%"}}>
             <div className="bank-accounts__top">
               <div className="bank-accounts__top-info">
                 <h2 className={"bank-accounts__title"}>

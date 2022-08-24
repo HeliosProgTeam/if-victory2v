@@ -25,7 +25,9 @@ export default class MyDocument extends Document {
 
           {/*<link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon.png" />*/}
           {/*<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon.png" />*/}
-          {/*<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon.png" />*/}
+          {/*<link rel="icon" type="image/png" sizes="16x16" href="../src/components/logo/logo.svg" />*/}
+          {/*<link rel="icon" type="image/x-icon" href="../src/components/logo/logo.svg"/>*/}
+          <link rel="shortcut icon" href="/logo.svg"/>
 
           {/* Fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />

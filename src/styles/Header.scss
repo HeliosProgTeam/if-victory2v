@@ -10,4 +10,22 @@
   z-index: 1000;
   font-family: 'Jost', serif;
   letter-spacing: 0.005em;
+
+  @media screen and (max-width: 1200px){
+    padding: 0 30px;
+  }
+
+  @media screen and (max-width: 900px){
+    padding: 0 10px;
+  }
+
+  &__menu{
+
+    button{
+      background-color: #006FF2;
+      min-width: 40px !important;
+      width: 100% !important;
+      padding: 6px 10px !important;
+    }
+  }
 }
