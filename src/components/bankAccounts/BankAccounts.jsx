@@ -57,7 +57,7 @@ export default function BankAccounts({ className }) {
                       "bank-accounts__сolumn bank-accounts__сolumn--head"
                     }
                   >
-                    Клієнт:
+
                   </p>
                   <p className={"bank-accounts__сolumn"}>
                     Благодійна Організація {'"Благодійний Фонд "ІФ-ВІКТОРІ""'}

@@ -15,7 +15,7 @@ export const Header = ({...props}) => {
                 <Nav/>
             </div>
             <div className="header__phone">
-                <Phone phone="099 745 00 00"/>
+                <Phone phone="068 163 30 37"/>
             </div>
             {/*<div className="header__social">*/}
             {/*  <Social/>*/}

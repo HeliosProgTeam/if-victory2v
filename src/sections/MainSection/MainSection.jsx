@@ -10,11 +10,11 @@ export const MainSection = ({ ...props }) => {
         <div className="home__info-wrapper">
           <div className="home__info">
             <div className="home__info-inner">
-              {/*<h2 className="home__subtitle">Вiтя гей</h2>*/}
-              <h1 className="home__title">Благодiйний фонд IФ-ВIКТОРI</h1>
               <p className="home__desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Благодiйна органiзацiя
               </p>
+              <h1 className="home__title">“Благодiйний фонд”
+                “IФ-ВIКТОРI”</h1>
             </div>
           </div>
         </div>
@@ -25,23 +25,5 @@ export const MainSection = ({ ...props }) => {
         <div className="home__bottom"></div>
       </div>
     </section>
-    // <section className="home" {...props}>
-    //   <div className="home__bg">
-    //     <div className="home__info">
-    //       <div className="home__info-inner">
-    //         <h2 className="home__subtitle">Вiтя гей</h2>
-    //         <h1 className="home__title">Благодiйний фонд IФ-ВIКТОРI</h1>
-    //         <p className="home__desc">
-    //           Lorem ipsum dolor sit amet, consectetur
-    //           adipiscing elit.
-    //         </p>
-    //       </div>
-    //     </div>
-    //     <div className="home__img">
-    //       {/*<Image width={300} height={200} src={MainImg} alt="image"/>*/}
-    //       <ImageNext src={CharityImg} alt="image" />
-    //     </div>
-    //   </div>
-    // </section>
   );
 };

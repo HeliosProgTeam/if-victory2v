@@ -2,6 +2,7 @@ import React from 'react';
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
+import Phone from "../phone/Phone";
 
 const Media = () => {
     return (
@@ -11,25 +12,12 @@ const Media = () => {
                     <div className="media__icon">
                         <EmailIcon/>
                     </div>
-                    <span className={"media__text"}>
-                        examplemailchamp@gmail.com
-                    </span>
+                    <a className={"media__text"} href="mailto:examplemailchamp@gmail.com">
+                        ifvictorybf@gmail.com
+                    </a>
                 </li>
                 <li className={"media__item"}>
-                    <div className="media__icon">
-                        <LocationOnIcon/>
-                    </div>
-                    <span className={"media__text"}>
-                        76000 example adress 9a
-                    </span>
-                </li>
-                <li className={"media__item"}>
-                    <div className="media__icon">
-                        <PhoneIcon/>
-                    </div>
-                    <span className={"media__text"}>
-                        099 745 00 00
-                    </span>
+                    <Phone phone="068 163 30 37"/>
                 </li>
             </ul>
         </div>
