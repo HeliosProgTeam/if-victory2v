@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
-<style type="text/css">
-	.st0{stroke:#FF00FF;stroke-width:8;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#FF00FF;stroke-width:8;stroke-miterlimit:10;}
-	.st2{display:none;}
-</style>
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1920 1080" overflow="visible" xml:space="preserve">
 <g id="Слой_3">
 </g>
 <g id="Слой_1">
-	<path class="st0" d="M956.76,626.73L829.2,399.18L677.5,288.86l179.28,65.51l54.49,103.43h16.11l12.14-72.4c0,0,3.45-41.37,55.16,0
-		l-17.24,17.24l15.26,55.16h13.94l56.99-103.43L1230.77,263l-143,136.18L956.76,626.73z"/>
-	<polygon class="st1" points="1084.32,450.9 1129.14,392.29 1222.23,309.54 1153.27,413.35 	"/>
-	<polygon class="st1" points="1129.14,468.13 1063.63,495.72 1042.95,543.98 	"/>
-	<polygon class="st1" points="870.57,547.43 849.88,495.72 787.82,461.24 	"/>
-	<polygon class="st1" points="829.2,461.24 784.38,402.63 687.84,323.33 758.52,419.89 	"/>
-	<polygon class="st1" points="984.34,647.41 985.09,650.9 1005.03,743.94 1032.61,706.02 	"/>
-	<polygon class="st1" points="960.21,678.44 984.34,760.22 942.62,760.22 	"/>
-	<polygon class="st1" points="932.17,647.41 915.84,752.56 887.81,709.47 	"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M956.59,626.43L829.22,399.22
+		c-0.01-0.02-0.03-0.04-0.05-0.06L678.6,289.65c-0.18-0.13-0.03-0.41,0.18-0.33l177.93,65.01c0.04,0.02,0.08,0.05,0.1,0.09
+		l54.4,103.26c0.03,0.06,0.1,0.1,0.17,0.1h15.84c0.09,0,0.17-0.07,0.19-0.16l12.11-72.23c0,0,0,0,0-0.01
+		c0.03-0.31,3.63-41.12,54.99-0.13c0.09,0.07,0.1,0.21,0.02,0.29l-17.01,17.01c-0.05,0.05-0.07,0.12-0.05,0.18l15.19,54.92
+		c0.02,0.08,0.1,0.14,0.18,0.14h13.68c0.07,0,0.13-0.04,0.17-0.1l56.91-103.28c0.02-0.03,0.04-0.06,0.08-0.08l165.82-90.64
+		c0.2-0.11,0.38,0.15,0.22,0.3l-141.94,135.16c-0.01,0.01-0.02,0.03-0.03,0.04L956.92,626.44
+		C956.85,626.56,956.67,626.56,956.59,626.43z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M1084.86,450.19l44.27-57.89
+		c0.01-0.01,0.02-0.02,0.02-0.03l91.98-81.76c0.17-0.15,0.41,0.06,0.28,0.25l-68.12,102.55c-0.02,0.03-0.04,0.05-0.07,0.06
+		l-68.13,37.09C1084.92,450.57,1084.74,450.35,1084.86,450.19z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M1128.07,468.59l-64.36,27.1
+		c-0.05,0.02-0.08,0.06-0.1,0.1l-20.32,47.42c-0.08,0.19,0.15,0.35,0.3,0.22l84.68-74.52
+		C1128.43,468.76,1128.26,468.5,1128.07,468.59z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M870.2,546.52l-20.3-50.75
+		c-0.02-0.04-0.05-0.07-0.08-0.1l-60.89-33.83c-0.19-0.11-0.38,0.14-0.23,0.3l81.19,84.58C870.04,546.88,870.28,546.72,870.2,546.52
+		z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M828.61,460.47l-44.22-57.83
+		c-0.01-0.01-0.02-0.02-0.03-0.03l-95.35-78.33c-0.17-0.14-0.41,0.08-0.27,0.26l69.76,95.31c0.02,0.02,0.03,0.04,0.06,0.05
+		l69.81,40.85C828.54,460.86,828.74,460.64,828.61,460.47z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M1015,686l-29.43-34.53
+		c-0.13-0.15-0.37-0.03-0.33,0.16l19.69,91.9c0.03,0.16,0.24,0.2,0.34,0.07l27.24-37.46c0.05-0.07,0.05-0.17-0.01-0.24L1015,686z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M960.42,679.16l23.85,80.82
+		c0.04,0.12-0.06,0.24-0.18,0.24h-41.23c-0.12,0-0.21-0.11-0.19-0.23l17.38-80.82C960.09,678.98,960.36,678.97,960.42,679.16z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M932.05,648.2l-16.13,103.87
+		c-0.03,0.17-0.25,0.22-0.35,0.07l-27.69-42.57c-0.04-0.07-0.04-0.15,0-0.21l43.83-61.3C931.82,647.9,932.08,648,932.05,648.2z"/>
 </g>
-<g id="Слой_2" class="st2">
+<g id="Слой_2" display="none">
 	
-		<image style="display:inline;overflow:visible;" width="149" height="133" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAACFCAYAAABSdLrUAAAABGdBTUEAALGPC/xhBQAACklpQ0NQ
+		<image display="inline" width="149" height="133" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAACFCAYAAABSdLrUAAAABGdBTUEAALGPC/xhBQAACklpQ0NQ
 c1JHQiBJRUM2MTk2Ni0yLjEAAEiJnVN3WJP3Fj7f92UPVkLY8LGXbIEAIiOsCMgQWaIQkgBhhBAS
 QMWFiApWFBURnEhVxILVCkidiOKgKLhnQYqIWotVXDjuH9yntX167+3t+9f7vOec5/zOec8PgBES
 JpHmomoAOVKFPDrYH49PSMTJvYACFUjgBCAQ5svCZwXFAADwA3l4fnSwP/wBr28AAgBw1S4kEsfh

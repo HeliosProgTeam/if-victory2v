@@ -13,7 +13,7 @@ const Media = () => {
           <div className="media__icon">
             <EmailIcon />
           </div>
-          <a href={'mailto:ifvictorybf@gmail.com'} className={"media__text"}>ifvictorybf@gmail.com</a>
+          <a href={'mailto:prykarpatgarant@gmail.com'} className={"media__text"}>prykarpatgarant@gmail.com</a>
         </li>
         <li className={"media__item"}>
             <Phone phone="068 163 30 37"/>

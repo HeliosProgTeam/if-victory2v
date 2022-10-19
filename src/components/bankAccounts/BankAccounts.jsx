@@ -96,7 +96,7 @@ export default function BankAccounts({ className }) {
 
                   </p>
                   <p className={"bank-accounts__сolumn"}>
-                    Благодійна Організація {'"Благодійний Фонд "ІФ-ВІКТОРІ""'}
+                    Благодійна Організація {'"Благодійний Фонд "ПрикарпатГарант""'}
                   </p>
                 </h3>
                 <p className={"bank-accounts__top-text"}>
@@ -107,14 +107,14 @@ export default function BankAccounts({ className }) {
                   >
                     Ідент. код:
                   </p>
-                  <p>44763366</p>
+                  <p>44881350</p>
                 </p>
               </div>
               <div className="bank-accounts__stamp">
                 <Img src={StampImg} alt={"Штамп"} />
               </div>
             </div>
-            <BankAccountsTable />
+
           </div>
         </Box>
       </Modal>

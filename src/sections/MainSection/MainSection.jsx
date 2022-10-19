@@ -14,7 +14,7 @@ export const MainSection = ({ ...props }) => {
                 Благодiйна органiзацiя
               </p>
               <h1 className="home__title">“Благодiйний фонд”
-                “IФ-ВIКТОРI”</h1>
+                “ПрикарпатГарант”</h1>
             </div>
           </div>
         </div>

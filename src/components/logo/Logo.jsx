@@ -9,7 +9,7 @@ const Logo = () => {
       <div className="logo__img">
         <Img src={LogoImage} alt='hands'/>
       </div>
-      <span className="logo__title">IF-Victory</span>
+      <span className="logo__title">ПрикарпатГарант</span>
     </div>
   );
 };

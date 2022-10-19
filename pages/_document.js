@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
           />
           <meta name="keywords" content="charity,donation,ukraine " />
           <meta name="author" content="IF-Victory" />
-          <title>IF-Victory</title>
+          <title>ПРИКАРПАТГАРАНТ</title>
           {/*<link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon.png" />*/}
           {/*<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon.png" />*/}
           {/*<link rel="icon" type="image/png" sizes="16x16" href="../src/components/logo/logo.svg" />*/}
