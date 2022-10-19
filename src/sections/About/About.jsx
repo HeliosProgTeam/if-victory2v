@@ -2,7 +2,7 @@ import React from "react";
 import BannerImg from "../../components/bannerImg/BannerImg";
 import SocialImg from "./social_help.jpg";
 import ArmyImg from "./army_help.jpg";
-import MedicImg from "./medic_help.jpg";
+import MedicImg from "./medic_help.png";
 
 const About = () => {
   return (

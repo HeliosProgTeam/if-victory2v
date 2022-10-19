@@ -21,19 +21,28 @@ export default class MyDocument extends Document {
             content="Donations to people affected by the war"
           />
           <meta name="keywords" content="charity,donation,ukraine " />
-          <meta name="author" content="Pontarea Yachting" />
-
+          <meta name="author" content="IF-Victory" />
+          <title>IF-Victory</title>
           {/*<link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon.png" />*/}
           {/*<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon.png" />*/}
           {/*<link rel="icon" type="image/png" sizes="16x16" href="../src/components/logo/logo.svg" />*/}
           {/*<link rel="icon" type="image/x-icon" href="../src/components/logo/logo.svg"/>*/}
-          <link rel="shortcut icon" href="/logo.svg"/>
+          <link rel="shortcut icon" href="/logo.svg" />
 
           {/* Fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap" rel="stylesheet"/>
-          <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&display=swap" rel="stylesheet"/>
-          <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet"/>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"
+            rel="stylesheet"
+          />
         </Head>
 
         <body>

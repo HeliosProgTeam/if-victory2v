@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import BgImg from "../sections/MainSection/bg.jpg";
+import BgImg from "../sections/MainSection/bg.png";
 
 const Img = ({ src, alt, ...props }) => {
   return (
