@@ -30,7 +30,7 @@ export const Header = ({ ...props }) => {
             <Nav />
           </div>
           <div className="header__phone">
-            <Phone phone="068 163 30 37"/>
+            <Phone phone="063 624 03 06"/>
           </div>
         </>
       ) : (

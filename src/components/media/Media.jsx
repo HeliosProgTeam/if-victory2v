@@ -16,7 +16,7 @@ const Media = () => {
           <a href={'mailto:prykarpatgarant@gmail.com'} className={"media__text"}>prykarpatgarant@gmail.com</a>
         </li>
         <li className={"media__item"}>
-            <Phone phone="068 163 30 37"/>
+            <Phone phone="063 624 03 06"/>
         </li>
       </ul>
     </div>
