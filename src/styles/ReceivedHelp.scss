@@ -1,6 +1,12 @@
 .received-help {
   padding: 55px 70px 67px;
 
+  @media screen and (max-width: 900px) {
+    padding: 30px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 30px 15px;
+  }
   &__title {
     font-weight: 800;
     font-size: 36px;
@@ -15,16 +21,18 @@
   }
 
   .people-carousel {
+    overflow: hidden;
+    padding-bottom: 40px;
     .slick-dots {
       display: flex !important;
       justify-content: center;
-      bottom: -45px;
+      bottom: 0px;
       li {
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        border: 2px solid #6D6D6D;
+        border: 2px solid #6d6d6d;
         width: 16px;
         height: 16px;
 
@@ -49,9 +57,13 @@
   .people-card-wrap {
     display: flex;
     justify-content: center;
+
     .people-card {
       position: relative;
       width: fit-content;
+
+
+
       &__top {
         display: flex;
         justify-content: flex-start;
