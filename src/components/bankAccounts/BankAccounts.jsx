@@ -9,8 +9,8 @@ import StampImg from "./stamp.jpg";
 import CloseIcon from "@mui/icons-material/Close";
 const style = {
   position: "absolute",
-  display:"flex",
-  flexDirection:"column",
+  display: "flex",
+  flexDirection: "column",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
@@ -81,7 +81,10 @@ export default function BankAccounts({ className }) {
             </style>
           </div>
 
-          <div className="bank-accounts__wrap" style={{ overflowY: "scroll",overflowX: "hidden", height:"100%"}}>
+          <div
+            className="bank-accounts__wrap"
+            style={{ overflowY: "scroll", overflowX: "hidden", height: "100%" }}
+          >
             <div className="bank-accounts__top">
               <div className="bank-accounts__top-info">
                 <h2 className={"bank-accounts__title"}>
@@ -92,11 +95,10 @@ export default function BankAccounts({ className }) {
                     className={
                       "bank-accounts__сolumn bank-accounts__сolumn--head"
                     }
-                  >
-
-                  </p>
+                  ></p>
                   <p className={"bank-accounts__сolumn"}>
-                    Благодійна Організація {'"Благодійний Фонд "ПрикарпатГарант""'}
+                    Благодійна Організація{" "}
+                    {'"Благодійний Фонд "ПрикарпатГарант""'}
                   </p>
                 </h3>
                 <p className={"bank-accounts__top-text"}>
@@ -114,7 +116,7 @@ export default function BankAccounts({ className }) {
                 <Img src={StampImg} alt={"Штамп"} />
               </div>
             </div>
-
+            <BankAccountsTable />
           </div>
         </Box>
       </Modal>

@@ -44,6 +44,12 @@ const ReceivedHelp = () => {
       name: "Людмила",
       surname: "Миколаївна",
     },
+    {
+      src: "/videos/video6.mp4",
+      lastname: "",
+      name: "Агрофірма",
+      surname: "БУКІВНЯНСЬКА",
+    },
   ];
 
   const carouselSettings = {
