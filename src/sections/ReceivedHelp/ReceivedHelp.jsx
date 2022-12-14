@@ -50,6 +50,51 @@ const ReceivedHelp = () => {
       name: "Агрофірма",
       surname: "БУКІВНЯНСЬКА",
     },
+
+    {
+      src: "/videos/video7.mp4",
+      lastname: "",
+      name: "Валерій",
+      surname: "Валерійович",
+    },
+    {
+      src: "/videos/video8.mp4",
+      lastname: "",
+      name: "Михайло",
+      surname: "Ілліч",
+    },
+    {
+      src: "/videos/video9.mp4",
+      lastname: "",
+      name: "Олександр",
+      surname: "Іванович",
+    },
+    {
+      src: "/videos/video10.mp4",
+      lastname: "",
+      name: "Іван",
+      surname: "Іванович",
+    }, {
+      src: "/videos/video11.mp4",
+      lastname: "",
+      name: "Юрій",
+      surname: "Юрійович",
+    }, {
+      src: "/videos/video12.mp4",
+      lastname: "",
+      name: "Василь",
+      surname: "Сергійович",
+    },{
+      src: "/videos/video13.mp4",
+      lastname: "",
+      name: "Володимир",
+      surname: "Богданович",
+    },{
+      src: "/videos/video14.mp4",
+      lastname: "",
+      name: "Сергій",
+      surname: "Олександрович",
+    },
   ];
 
   const carouselSettings = {

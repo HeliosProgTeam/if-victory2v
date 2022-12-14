@@ -35,6 +35,12 @@
         border: 2px solid #6d6d6d;
         width: 16px;
         height: 16px;
+        @media screen and (max-width: 376px){
+          width: 13px;
+          height: 13px;
+          border-width: 1px;
+          margin: 0 4px;
+        }
 
         button {
           padding: 0;
@@ -43,6 +49,10 @@
           background-color: black;
           border-radius: 50%;
 
+          @media screen and (max-width: 376px){
+            width: 5px;
+            height: 5px;
+          }
           &:before {
             content: none;
           }
@@ -61,8 +71,6 @@
     .people-card {
       position: relative;
       width: fit-content;
-
-
 
       &__top {
         display: flex;
