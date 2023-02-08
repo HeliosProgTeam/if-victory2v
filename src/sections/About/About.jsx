@@ -1,8 +1,8 @@
 import React from "react";
 import BannerImg from "../../components/bannerImg/BannerImg";
-import SocialImg from "./social_help.jpg";
-import ArmyImg from "./army_help.jpg";
-import MedicImg from "./medic_help.png";
+import SocialImg from "../../../public/images/social_help.jpg";
+import ArmyImg from "../../../public/images/army_help.jpg";
+import MedicImg from "../../../public/images/medic_help.png";
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import BgImg from "./bg.png";
+import BgImg from "../../../public/images/bg.png";
 import ImageNext from "next/image";
 import Img from "../../components/Image";
 
