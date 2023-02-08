@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
+    "export": "next build && next export && next-image-export-optimizer",
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "components": "^0.1.0",
     "material-kit-react": "^1.10.0",
     "next": "12.2.5",
+    "next-image-export-optimizer": "^1.2.1",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
