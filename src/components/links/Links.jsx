@@ -2,6 +2,7 @@ import React from "react";
 import Media from "../media/Media";
 
 const Links = () => {
+
   const array = [
     {
       title: "Solutions",
@@ -57,25 +58,29 @@ const Links = () => {
     },
   ];
 
+  // return (
+  //   <div className={"footer-nav"}>
+  //     <Media />
+  //     {array?.map((item, index) => {
+  //       return (
+  //         <div key={index} className={"footer-nav__item"}>
+  //           <h4>{item.title}</h4>
+  //
+  //           {item.links.map((link, index) => {
+  //             return (
+  //               <span key={index} className={"footer-nav__text"}>
+  //                 <a href={link.path}>{link.lable}</a>
+  //               </span>
+  //             );
+  //           })}
+  //         </div>
+  //       );
+  //     })}
+  //   </div>
+  // );
+  // верхній варіант на випадок якщо буде меню навігації
   return (
-    <div className={"footer-nav"}>
-      <Media />
-      {array.map((item, index) => {
-        return (
-          <div key={index} className={"footer-nav__item"}>
-            <h4>{item.title}</h4>
-
-            {item.links.map((link, index) => {
-              return (
-                <span key={index} className={"footer-nav__text"}>
-                  <a href={link.path}>{link.lable}</a>
-                </span>
-              );
-            })}
-          </div>
-        );
-      })}
-    </div>
+        <Media />
   );
 };
 

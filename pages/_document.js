@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
             name="description"
             content="Donations to people affected by the war"
           />
-          <meta name="keywords" content="charity,donation,ukraine " />
+          <meta name="keywords" content="charity,donation,ukraine,prykarpatgarant," />
           <meta name="author" content="IF-Victory" />
           <title>ПРИКАРПАТГАРАНТ</title>
           {/*<link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon.png" />*/}
