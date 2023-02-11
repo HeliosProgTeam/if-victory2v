@@ -20,7 +20,10 @@ export default class MyDocument extends Document {
             name="description"
             content="Donations to people affected by the war"
           />
-          <meta name="keywords" content="charity,donation,ukraine,prykarpatgarant," />
+          <meta
+            name="keywords"
+            content="charity,donation,ukraine,prykarpatgarant,"
+          />
           <meta name="author" content="IF-Victory" />
           {/*<title>ПРИКАРПАТГАРАНТ</title>*/}
           {/*<link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon.png" />*/}
@@ -35,14 +38,34 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"
             rel="stylesheet"
           />
+          {/*<link*/}
+          {/*  rel="preload"*/}
+          {/*  href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"*/}
+          {/*  as="font"*/}
+          {/*  crossOrigin*/}
+          {/*/>*/}
+
           <link
             href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&display=swap"
             rel="stylesheet"
           />
+          {/*<link*/}
+          {/*  rel="preload"*/}
+          {/*  href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&display=swap"*/}
+          {/*  as="font"*/}
+          {/*  crossOrigin*/}
+          {/*/>*/}
+
           <link
             href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"
             rel="stylesheet"
           />
+          {/*<link*/}
+          {/*  rel="preload"*/}
+          {/*  href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"*/}
+          {/*  as="font"*/}
+          {/*  crossOrigin*/}
+          {/*/>*/}
         </Head>
 
         <body>

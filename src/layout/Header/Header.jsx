@@ -37,6 +37,7 @@ export const Header = ({ ...props }) => {
         <div className={"header__menu"}>
           <Button
             id="basic-button"
+            aria-label={"Меню"}
             aria-controls={open ? "basic-menu" : undefined}
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
