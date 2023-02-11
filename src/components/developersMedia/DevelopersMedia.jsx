@@ -17,25 +17,25 @@ const DevelopersMedia = () => {
             </span>
             <div className="developers__media">
                 <div className="developers__item">
-                    <a href="#" className={'developers__icon '}>
+                    <a href="#" className={'developers__icon '} aria-label={"Інстаграм розробника"}>
                         {/*<Img src={Instagram} alt={"media"}/>*/}
                       <InstagramIcon style={{fontSize:"inherit"}}/>
                     </a>
                 </div>
                 <div className="developers__item">
-                    <a href="#" className={'developers__icon '}>
+                    <a href="#" className={'developers__icon '} aria-label={"Твіттер розробника"}>
                         {/*<Img src={Twitter} alt={"media"}/>*/}
                       <TwitterIcon style={{fontSize:"inherit"}}/>
                     </a>
                 </div>
                 <div className="developers__item">
-                    <a href="#" className={'developers__icon developers__icon--telegram'}>
+                    <a href="#" className={'developers__icon developers__icon--telegram'} aria-label={"Телеграм розробника"}>
                         {/*<Img src={Telegram} alt={"media"}/>*/}
                       <TelegramIcon style={{fontSize:"inherit"}}/>
                     </a>
                 </div>
                 <div className="developers__item">
-                    <a href="#" className={'developers__icon '}>
+                    <a href="#" className={'developers__icon '} aria-label={"Гітхаб розробника"}>
                         {/*<Img src={Github} alt={"media"}/>*/}
                       <GitHubIcon style={{fontSize:"inherit"}}/>
                     </a>
