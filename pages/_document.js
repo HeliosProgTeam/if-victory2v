@@ -36,17 +36,17 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"
-            rel="preload"
+            rel="stylesheet"
           />
 
           <link
             href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&display=swap"
-            rel="preload"
+            rel="stylesheet"
           />
 
           <link
             href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"
-            rel="preload"
+            rel="stylesheet"
           />
         </Head>
 

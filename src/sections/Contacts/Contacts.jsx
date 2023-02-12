@@ -1,7 +1,7 @@
 import React from "react";
 import Divider from "../../components/divider/Divider";
 import Img from "../../components/Image";
-import SecImage from "../../../public/images/second.png";
+import SecImage from "../../../public/images/second.jpg";
 import FirImage from "../../../public/images/first.jpg";
 
 const Contacts = () => {

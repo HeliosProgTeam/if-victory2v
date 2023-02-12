@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import BgImg from "../../public/images/bg.png";
 import ExportedImage from "next-image-export-optimizer";
 
 const Img = ({ src, alt, ...props }) => {
