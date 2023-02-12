@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/images/logo.svg" sizes={"192x192"} />
 
           {/* Fonts */}
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.googleapis.com&display=swap" />
           <link
             href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"
             rel="stylesheet"
