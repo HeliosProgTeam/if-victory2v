@@ -33,39 +33,21 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/images/logo.svg" sizes={"192x192"} />
 
           {/* Fonts */}
-          <link rel="preconnect" href="https://fonts.googleapis.com&display=swap" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"
-            rel="stylesheet"
+            rel="preload"
           />
-          {/*<link*/}
-          {/*  rel="preload"*/}
-          {/*  href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"*/}
-          {/*  as="font"*/}
-          {/*  crossOrigin*/}
-          {/*/>*/}
 
           <link
             href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&display=swap"
-            rel="stylesheet"
+            rel="preload"
           />
-          {/*<link*/}
-          {/*  rel="preload"*/}
-          {/*  href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&display=swap"*/}
-          {/*  as="font"*/}
-          {/*  crossOrigin*/}
-          {/*/>*/}
 
           <link
             href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"
-            rel="stylesheet"
+            rel="preload"
           />
-          {/*<link*/}
-          {/*  rel="preload"*/}
-          {/*  href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"*/}
-          {/*  as="font"*/}
-          {/*  crossOrigin*/}
-          {/*/>*/}
         </Head>
 
         <body>
