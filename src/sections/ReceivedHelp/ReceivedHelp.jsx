@@ -11,87 +11,87 @@ const ReceivedHelp = () => {
   }, []);
 
   const receivedPeople = [
-    // {
-    //   src: "/videos/video1.mp4",
-    //   lastname: "",
-    //   name: "Ігор",
-    //   surname: "Зіновійович",
-    // },
-    // {
-    //   src: "/videos/video2.mp4",
-    //   lastname: "",
-    //   name: "Оксана",
-    //   surname: "Миколаївна",
-    // },
-    // {
-    //   src: "/videos/video3.mp4",
-    //   lastname: "Захаров",
-    //   name: "Олег",
-    //   surname: "Генадійович",
-    // },
-    // {
-    //   src: "/videos/video4.mp4",
-    //   lastname: "",
-    //   name: "Василь",
-    //   surname: "Васильович",
-    // },
-    // {
-    //   src: "/videos/video5.mp4",
-    //   lastname: "Базилюк",
-    //   name: "Людмила",
-    //   surname: "Миколаївна",
-    // },
-    // {
-    //   src: "/videos/video6.mp4",
-    //   lastname: "",
-    //   name: "Агрофірма",
-    //   surname: "БУКІВНЯНСЬКА",
-    // },
+    {
+      src: "/videos/video1.mp4",
+      lastname: "",
+      name: "Ігор",
+      surname: "Зіновійович",
+    },
+    {
+      src: "/videos/video2.mp4",
+      lastname: "",
+      name: "Оксана",
+      surname: "Миколаївна",
+    },
+    {
+      src: "/videos/video3.mp4",
+      lastname: "Захаров",
+      name: "Олег",
+      surname: "Генадійович",
+    },
+    {
+      src: "/videos/video4.mp4",
+      lastname: "",
+      name: "Василь",
+      surname: "Васильович",
+    },
+    {
+      src: "/videos/video5.mp4",
+      lastname: "Базилюк",
+      name: "Людмила",
+      surname: "Миколаївна",
+    },
+    {
+      src: "/videos/video6.mp4",
+      lastname: "",
+      name: "Агрофірма",
+      surname: "БУКІВНЯНСЬКА",
+    },
 
-    // {
-    //   src: "/videos/video7.mp4",
-    //   lastname: "",
-    //   name: "Валерій",
-    //   surname: "Валерійович",
-    // },
-    // {
-    //   src: "/videos/video8.mp4",
-    //   lastname: "",
-    //   name: "Михайло",
-    //   surname: "Ілліч",
-    // },
-    // {
-    //   src: "/videos/video9.mp4",
-    //   lastname: "",
-    //   name: "Олександр",
-    //   surname: "Іванович",
-    // },
-    // {
-    //   src: "/videos/video10.mp4",
-    //   lastname: "",
-    //   name: "Іван",
-    //   surname: "Іванович",
-    // }, {
-    //   src: "/videos/video11.mp4",
-    //   lastname: "",
-    //   name: "Юрій",
-    //   surname: "Юрійович",
-    // }, {
-    //   src: "/videos/video12.mp4",
-    //   lastname: "",
-    //   name: "Василь",
-    //   surname: "Сергійович",
-    // },{
-    //   src: "/videos/video13.mp4",
-    //   lastname: "",
-    //   name: "Володимир",
-    //   surname: "Богданович",
-    // },{
-    //   src: "/videos/video14.mp4",
-    //   lastname: "",
-    //   name: "Сергій",
-    //   surname: "Олександрович",
-    // },
+    {
+      src: "/videos/video7.mp4",
+      lastname: "",
+      name: "Валерій",
+      surname: "Валерійович",
+    },
+    {
+      src: "/videos/video8.mp4",
+      lastname: "",
+      name: "Михайло",
+      surname: "Ілліч",
+    },
+    {
+      src: "/videos/video9.mp4",
+      lastname: "",
+      name: "Олександр",
+      surname: "Іванович",
+    },
+    {
+      src: "/videos/video10.mp4",
+      lastname: "",
+      name: "Іван",
+      surname: "Іванович",
+    }, {
+      src: "/videos/video11.mp4",
+      lastname: "",
+      name: "Юрій",
+      surname: "Юрійович",
+    }, {
+      src: "/videos/video12.mp4",
+      lastname: "",
+      name: "Василь",
+      surname: "Сергійович",
+    },{
+      src: "/videos/video13.mp4",
+      lastname: "",
+      name: "Володимир",
+      surname: "Богданович",
+    },{
+      src: "/videos/video14.mp4",
+      lastname: "",
+      name: "Сергій",
+      surname: "Олександрович",
+    },
   ];
 
   const carouselSettings = {
