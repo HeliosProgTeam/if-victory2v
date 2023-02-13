@@ -1,23 +1,22 @@
-import {Header} from "./Header/Header";
-import {Footer} from "./Footer/Footer";
+import { Header } from "./Header/Header";
+import { Footer } from "./Footer/Footer";
 
-const Layout = ({children}) => {
-    return (
-        <>
-            <Header/>
-            <main>{children}</main>
-
-            <Footer/>
-        </>
-    );
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
 };
 
 export const withLayout = (Component) => {
-    return function withLayoutComponent(props) {
-        return (
-            <Layout>
-                <Component {...props} />
-            </Layout>
-        );
-    };
+  return function withLayoutComponent(props) {
+    return (
+      <Layout>
+        <Component {...props} />
+      </Layout>
+    );
+  };
 };

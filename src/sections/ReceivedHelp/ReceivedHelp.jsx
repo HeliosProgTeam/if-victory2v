@@ -2,12 +2,9 @@ import React, { useEffect, useRef } from "react";
 import Slider from "react-slick";
 import { Grid, useMediaQuery, useTheme } from "@mui/material";
 
-// import video1 from '/videos/thanks1.mp4'
 const ReceivedHelp = () => {
   const theme = useTheme();
-  const carouselRef = useRef(null);
-  // const containerRef = useRef(null);
-  const smDown = useMediaQuery(theme.breakpoints.down("sm"));
+  const carouselRef = useRef(null);  const smDown = useMediaQuery(theme.breakpoints.down("sm"));
 
   useEffect(() => {
     carouselRef.current?.slickPlay();

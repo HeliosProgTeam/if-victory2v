@@ -49,7 +49,6 @@ export default function BankAccountsTable() {
                   </div>
                   <div className="table__value">
                     <p>
-                      {console.log(typeof row.value)}
                       {typeof row.value === "object"
                         ? Object.values(row.value).map((bank, index) => (
                             <>

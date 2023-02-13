@@ -21,9 +21,7 @@ const Nav = ({ ...other }) => {
           </a>
         </li>
         <li className="nav__item">
-          <BankAccounts
-            // className={"nav__link nav__link--btn"}
-          />
+          <BankAccounts />
         </li>
       </ul>
     </div>

@@ -7,10 +7,6 @@
     padding: 37px 15px 20px;
   }
   &-nav {
-    //display: grid;
-    //grid-template-columns: repeat(5, 1fr);
-    //grid-row-gap: 1em;
-    //grid-column-gap: 50px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -44,7 +40,7 @@
     order: 1;
   }
 
-  &__list{
+  &__list {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -62,7 +58,6 @@
     display: flex;
     align-items: center;
     &:not(:last-child) {
-      //margin-bottom: 6px; // на випадок якщо буде меню навігації
       margin-bottom: 0px;
     }
     &:hover {
@@ -84,7 +79,6 @@
       &__number {
         font-family: "Jost", serif;
         font-weight: 500;
-        //font-size: 12px; // на випадок якщо буде меню навігації
         font-size: 16px;
         line-height: 28px;
         letter-spacing: 0.005em;
@@ -105,7 +99,6 @@
     font-family: "Jost", serif;
     font-style: normal;
     font-weight: 500;
-    //font-size: 12px; // на випадок якщо буде меню навігації
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.005em;
@@ -118,15 +111,6 @@ hr {
   color: #404040;
   background-color: #404040;
   height: 3px;
-  //margin: 90px 0 15px;
-  //@media screen and (max-width: 900px) {
-  //  margin: 70px 0 15px;
-  //}
-  //
-  //@media screen and (max-width: 768px) {
-  //  margin: 30px 0 15px;
-  //} //верхній комент на випадок якщо буде меню навігації
-
   margin: 15px 0 15px;
 }
 
@@ -137,7 +121,6 @@ hr {
   gap: 20px;
   @media screen and (max-width: 600px) {
     justify-content: space-evenly;
-    //row-gap: 20px;
     flex-wrap: wrap;
   }
   &__rights {
@@ -158,24 +141,11 @@ hr {
     align-items: center;
     width: 25px !important;
     height: 25px !important;
-    //padding: 1px;
     font-size: 26px;
 
-    &:hover{
-      color: #006FF2;
+    &:hover {
+      color: #006ff2;
     }
-    //svg {
-    //  width: 25px !important;
-    //  height: 25px !important;
-    //  //fill: red;
-    //}
-    //&--telegram {
-    //  border-radius: 50%;
-    //  background-color: black;
-    //  svg {
-    //    fill: white;
-    //  }
-    //}
   }
   &__item:not(:last-child) {
     margin-right: 10px;

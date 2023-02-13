@@ -1,6 +1,5 @@
 import React from "react";
 import LogoImage from "../../../public/images/logo.svg";
-import Image from "next/image";
 import Img from "../Image";
 
 const Logo = () => {

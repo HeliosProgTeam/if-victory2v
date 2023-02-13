@@ -1,4 +1,3 @@
-
 import LocalPhoneSharpIcon from '@mui/icons-material/LocalPhoneSharp';
 
 const Phone = ({phone}) => {

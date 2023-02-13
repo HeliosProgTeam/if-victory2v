@@ -9,9 +9,7 @@ const Contacts = () => {
     <section className={"contacts"}>
       <div className="contacts__row">
         <div className="contacts__img contacts__img--left">
-          {/*<div className="contacts__img-inner">*/}
           <Img src={FirImage} alt="first item" />
-          {/*</div>*/}
         </div>
         <p className="contacts__text">
           Для аграрного сектору вкрай важливе забезпечення як добривами, так і
@@ -32,9 +30,7 @@ const Contacts = () => {
           складний період.
         </p>
         <div className="contacts__img contacts__img--right">
-          {/*<div className="contacts__inner-img">*/}
           <Img src={SecImage} alt="second item" />
-          {/*</div>*/}
         </div>
       </div>
     </section>

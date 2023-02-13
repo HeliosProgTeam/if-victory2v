@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Img from "../Image";
 
 const BannerImg = ({src,alt, desc,...props}) => {

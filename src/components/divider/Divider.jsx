@@ -1,5 +1,5 @@
 import React from "react";
-import HandsIcon from "./handsb.svg";
+import HandsIcon from "../../../public/images/handsb.svg";
 import Img from "../Image";
 
 const Divider = () => {

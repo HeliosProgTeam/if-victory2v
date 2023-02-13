@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Logo from "../../components/logo/Logo";
 import Nav from "../../components/nav/Nav";
 import Phone from "../../components/phone/Phone";
-import Social from "../../components/social/Social";
-import { Menu, MenuItem, useMediaQuery, useTheme } from "@mui/material";
+import { Menu, useMediaQuery, useTheme } from "@mui/material";
 import Button from "@mui/material/Button";
 import ListRoundedIcon from "@mui/icons-material/ListRounded";
 

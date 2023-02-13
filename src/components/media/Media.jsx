@@ -1,8 +1,5 @@
 import React from "react";
 import EmailIcon from "@mui/icons-material/EmailOutlined";
-import LocationOnIcon from "@mui/icons-material/LocationOnOutlined";
-import FmdGoodIcon from '@mui/icons-material/FmdGoodOutlined';
-import PhoneIcon from "@mui/icons-material/Phone";
 import Phone from "../phone/Phone";
 
 const Media = () => {

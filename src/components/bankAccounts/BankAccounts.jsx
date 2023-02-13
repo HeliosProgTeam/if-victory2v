@@ -1,11 +1,10 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import BankAccountsTable from "../BankAccountsTable/BankAccountsTable";
 import Img from "../Image";
-import StampImg from "./stamp.jpg";
+import StampImg from "../../../public/images/stamp.webp";
 import CloseIcon from "@mui/icons-material/Close";
 const style = {
   position: "absolute",
@@ -22,7 +21,6 @@ const style = {
   boxShadow: 24,
   padding: "10px",
   paddingTop: "10px",
-  // overflow:"hidden"
 };
 
 export default function BankAccounts({ className }) {

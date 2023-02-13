@@ -1,6 +1,5 @@
 import React from "react";
 import BgImg from "../../../public/images/bg.webp";
-import ImageNext from "next/image";
 import Img from "../../components/Image";
 
 export const MainSection = ({ ...props }) => {
@@ -19,7 +18,6 @@ export const MainSection = ({ ...props }) => {
           </div>
         </div>
         <div className="home__img-bg">
-          {/*<Image width={300} height={200} src={MainImg} alt="image"/>*/}
           <Img src={BgImg} alt="image" />
         </div>
         <div className="home__bottom" id="aboutsection"></div>
