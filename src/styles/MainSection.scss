@@ -128,7 +128,9 @@ $box-gray-background-color:rgba(5, 5, 5, 0.4);
     left: 0;
     right: 0;
     width: 100%;
+    max-width: 100%;
     height: calc(100vh - 70px + #{$height-gray-box-bottom});
+
   }
 
   &__bottom {

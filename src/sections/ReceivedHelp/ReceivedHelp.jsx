@@ -4,7 +4,8 @@ import { Grid, useMediaQuery, useTheme } from "@mui/material";
 
 const ReceivedHelp = () => {
   const theme = useTheme();
-  const carouselRef = useRef(null);  const smDown = useMediaQuery(theme.breakpoints.down("sm"));
+  const carouselRef = useRef(null);
+  const smDown = useMediaQuery(theme.breakpoints.down("sm"));
 
   useEffect(() => {
     carouselRef.current?.slickPlay();
@@ -71,22 +72,26 @@ const ReceivedHelp = () => {
       lastname: "",
       name: "Іван",
       surname: "Іванович",
-    }, {
+    },
+    {
       src: "/videos/video11.mp4",
       lastname: "",
       name: "Юрій",
       surname: "Юрійович",
-    }, {
+    },
+    {
       src: "/videos/video12.mp4",
       lastname: "",
       name: "Василь",
       surname: "Сергійович",
-    },{
+    },
+    {
       src: "/videos/video13.mp4",
       lastname: "",
       name: "Володимир",
       surname: "Богданович",
-    },{
+    },
+    {
       src: "/videos/video14.mp4",
       lastname: "",
       name: "Сергій",
