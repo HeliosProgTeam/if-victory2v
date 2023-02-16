@@ -18,6 +18,7 @@ const Nav = ({ ...other }) => {
         <li className="nav__item" {...other}>
           <a href="#contactssection" className="nav__link">
             Контакти
+
           </a>
         </li>
         <li className="nav__item">
@@ -25,6 +26,7 @@ const Nav = ({ ...other }) => {
         </li>
       </ul>
     </div>
+      // fdfd
   );
 };
 
