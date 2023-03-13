@@ -5,6 +5,7 @@ import Phone from "../../components/phone/Phone";
 import { Menu, useMediaQuery, useTheme } from "@mui/material";
 import Button from "@mui/material/Button";
 import ListRoundedIcon from "@mui/icons-material/ListRounded";
+import Link from "next/link";
 
 export const Header = ({ ...props }) => {
   const theme = useTheme();
@@ -20,16 +21,18 @@ export const Header = ({ ...props }) => {
   };
   return (
     <header className="header" {...props}>
-      <div className="header__logo">
-        <Logo />
-      </div>
+      <Link href={"/"} >
+        <div className="header__logo" style={{cursor:"pointer"}}>
+          <Logo />
+        </div>
+      </Link>
       {!mdDown ? (
         <>
           <div className="header__nav">
             <Nav />
           </div>
           <div className="header__phone">
-            <Phone phone="063 624 03 06"/>
+            <Phone phone="063 624 03 06" />
           </div>
         </>
       ) : (

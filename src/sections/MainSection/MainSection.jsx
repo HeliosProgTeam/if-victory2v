@@ -1,5 +1,5 @@
 import React from "react";
-import BgImg from "../../../public/images/bg.webp";
+import BgImg from "../../../public/images/sunflower-bg.webp";
 import Img from "../../components/Image";
 import { useMediaQuery, useTheme } from "@mui/material";
 
@@ -14,9 +14,10 @@ export const MainSection = ({ ...props }) => {
         <div className="home__info-wrapper">
           <div className="home__info">
             <div className="home__info-inner">
-              <p className="home__desc">Благодiйна органiзацiя</p>
+              {/*<p className="home__desc">Благодiйна органiзацiя</p>*/}
               <h1 className="home__title">
-                “Благодiйний фонд” “ПрикарпатГарант”
+                Прикарпат Гарант
+                <span style={{fontSize:"30px"}}> Благодiйний фонд</span>
               </h1>
             </div>
           </div>
@@ -25,7 +26,7 @@ export const MainSection = ({ ...props }) => {
           {/*{mdDown ? (*/}
           {/*  <Img src={BgImg} alt="image" width="960px" />*/}
           {/*) :*/}
-              {smDown ? (
+          {smDown ? (
             <Img src={BgImg} alt="image" width="600px" />
           ) : (
             <Img src={BgImg} alt="image" />

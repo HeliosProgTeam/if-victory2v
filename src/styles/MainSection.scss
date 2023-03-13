@@ -1,7 +1,7 @@
 $height-gray-box-top: 308px;
 $height-gray-box-bottom: 169px;
-$box-grayscale:100%;
-$box-gray-background-color:rgba(5, 5, 5, 0.4);
+$box-grayscale: 100%;
+$box-gray-background-color: rgba(5, 5, 5, 0.4);
 
 .home {
   padding-top: 70px;
@@ -11,18 +11,30 @@ $box-gray-background-color:rgba(5, 5, 5, 0.4);
     min-height: calc(100vh - 70px);
   }
   &__info-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+
+    //----
+
     z-index: 15;
     min-height: $height-gray-box-top;
-    background-color:$box-gray-background-color;
+    //background-color: $box-gray-background-color;
     backdrop-filter: grayscale($box-grayscale) blur(3px);
-    padding:33px 10px 0 10px;
-    margin-bottom: calc(100vh - #{$height-gray-box-top} - 70px);
-    @media screen and (max-width: 600px){
-      padding:50px 10px;
+    //padding: 33px 10px 0 10px;
+    margin-top: calc(100vh - 50vh - #{$height-gray-box-top} / 2 - 70px);
+    //margin-bottom: calc(100vh - #{$height-gray-box-top} - 70px);
+    @media screen and (max-width: 600px) {
+      padding: 50px 10px;
     }
   }
   &__info {
-    margin: 0 auto;
+    //margin: 0 auto;
     position: relative;
     text-align: center;
     color: white;
@@ -53,10 +65,10 @@ $box-gray-background-color:rgba(5, 5, 5, 0.4);
       width: 100%;
       padding: 40px;
       position: relative;
-      @media screen and (max-width: 900px){
+      @media screen and (max-width: 900px) {
         max-width: 400px;
       }
-      @media screen and (max-width: 600px){
+      @media screen and (max-width: 600px) {
         padding: 30px 30px;
         max-width: 300px;
       }
@@ -75,21 +87,19 @@ $box-gray-background-color:rgba(5, 5, 5, 0.4);
       }
     }
   }
-
   &__subtitle {
     margin-bottom: 0px;
     font-weight: 500;
     font-size: 28px;
     line-height: 35px;
     letter-spacing: 0.005em;
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 900px) {
       font-size: 30px;
     }
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 600px) {
       font-size: 24px;
     }
   }
-
   &__title {
     font-weight: 800;
     font-size: 36px;
@@ -97,13 +107,13 @@ $box-gray-background-color:rgba(5, 5, 5, 0.4);
     margin-bottom: 8px;
     letter-spacing: 0.005em;
     text-transform: capitalize;
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 900px) {
       font-size: 30px;
-    }@media screen and (max-width: 600px){
+    }
+    @media screen and (max-width: 600px) {
       font-size: 24px;
     }
   }
-
   &__desc {
     font-weight: 500;
     font-size: 20px;
@@ -112,13 +122,13 @@ $box-gray-background-color:rgba(5, 5, 5, 0.4);
     color: #e0e0e0;
     margin-bottom: 20px;
 
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 900px) {
       font-size: 20px;
-    }@media screen and (max-width: 600px){
+    }
+    @media screen and (max-width: 600px) {
       font-size: 16px;
     }
   }
-
   &__img-bg {
     position: absolute;
     z-index: -1;
@@ -130,14 +140,23 @@ $box-gray-background-color:rgba(5, 5, 5, 0.4);
     width: 100%;
     max-width: 100%;
     height: calc(100vh - 70px + #{$height-gray-box-bottom});
-
   }
 
   &__bottom {
-    max-height: $height-gray-box-bottom;
-    height: $height-gray-box-bottom;
-    background-color: $box-gray-background-color;
-    backdrop-filter: grayscale($box-grayscale) blur(3px);
-    z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    //height: calc(100vh - 70px + #{$height-gray-box-bottom});
+    background-color: rgba(0, 0, 0);
+    opacity: 0.4;
+    //---------
+
+    //max-height: $height-gray-box-bottom;
+    //height: $height-gray-box-bottom;
+    //background-color: $box-gray-background-color;
+    //backdrop-filter: grayscale($box-grayscale) blur(3px);
+    z-index: 14;
   }
 }

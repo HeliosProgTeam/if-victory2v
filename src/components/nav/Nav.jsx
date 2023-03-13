@@ -11,7 +11,7 @@ const Nav = ({ ...other }) => {
           </a>
         </li>
         <li className="nav__item" {...other}>
-          <a href="#aboutsection" className="nav__link">
+          <a href="/report" className="nav__link">
             Про нас
           </a>
         </li>
