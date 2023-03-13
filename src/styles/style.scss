@@ -92,6 +92,7 @@ section {
       }
     }
     .nav__item {
+      cursor: pointer;
       height: 100%;
       position: relative;
       display: flex;
@@ -359,3 +360,5 @@ section {
 @import "Contacts";
 @import "ReceivedHelp";
 @import "Footer";
+
+@import "Report";

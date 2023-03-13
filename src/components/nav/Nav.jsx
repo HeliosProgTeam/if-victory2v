@@ -1,24 +1,24 @@
 import React from "react";
 import BankAccounts from "../bankAccounts/BankAccounts";
+import Link from "next/link";
 
 const Nav = ({ ...other }) => {
   return (
     <div className="nav">
       <ul className="nav__list">
         <li className="nav__item" {...other}>
-          <a href="#mainhome" className="nav__link">
-            Головна
-          </a>
+          <Link href="/" className="nav__link">
+            <span className="nav__link">Головна</span>
+          </Link>
         </li>
         <li className="nav__item" {...other}>
-          <a href="/report" className="nav__link">
-            Про нас
-          </a>
+          <Link href="/report">
+            <span className="nav__link">Звіт</span>
+          </Link>
         </li>
         <li className="nav__item" {...other}>
           <a href="#contactssection" className="nav__link">
             Контакти
-
           </a>
         </li>
         <li className="nav__item">
@@ -26,7 +26,7 @@ const Nav = ({ ...other }) => {
         </li>
       </ul>
     </div>
-      // fdfd
+    // fdfd
   );
 };
 
