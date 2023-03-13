@@ -1,8 +1,10 @@
 import React from "react";
 import BannerImg from "../../components/bannerImg/BannerImg";
-import SocialImg from "../../../public/images/social_help_1.webp";
 import ArmyImg from "../../../public/images/army_help.webp";
-import MedicImg from "../../../public/images/medic_help.webp";
+// import SocialImg from "../../../public/images/social_help_1.webp";
+// import MedicImg from "../../../public/images/medic_help.webp";
+import FarmerImg from "../../../public/images/banner_vechile.svg";
+import SocialImg from "../../../public/images/banner_donation.webp";
 
 const About = () => {
   return (
@@ -10,19 +12,20 @@ const About = () => {
       <div className="about__top">
         <div className="about__banners">
           <BannerImg
-            desc={"Пiдтримка аграрної сфери України"}
-            alt={"Пiдтримка аграрної сфери України"}
-            src={SocialImg}
-          />
-          <BannerImg
             desc={"Допомога Збройним Силам України"}
             alt={"Допомога Збройним Силам України"}
             src={ArmyImg}
           />
           <BannerImg
+            desc={"Пiдтримка аграрної сфери України"}
+            alt={"Пiдтримка аграрної сфери України"}
+            src={FarmerImg}
+          />
+
+          <BannerImg
             desc={"Соцiальна допомога громадянам"}
             alt={"Соцiальна допомога громадянам"}
-            src={MedicImg}
+            src={SocialImg}
           />
         </div>
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import Divider from "../../components/divider/Divider";
 import Img from "../../components/Image";
-import SecImage from "../../../public/images/second_1.webp";
-import FirImage from "../../../public/images/first.webp";
+import SecImage from "../../../public/images/about_vechile.webp";
+import FirImage from "../../../public/images/combine-harvester.webp";
 
 const Contacts = () => {
   return (
