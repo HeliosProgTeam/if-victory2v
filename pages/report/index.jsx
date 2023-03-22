@@ -123,37 +123,64 @@ const receivedHelp = [
 const ReportPage = () => {
   return (
     <div className={"report-page"}>
-      <h1 className="report-page__title">Report 2022-23</h1>
-      {receivedHelp.map((person) => {
-        return (
-          <>
-            <div className="people-card">
-              <div className="people-card__inner">
-                <div className="people-card__info">
-                  <h3 className={"people-card__name"}>
-                    {person.name} {person.surname}
-                  </h3>
-                  <p className="people-card__desc">
-                    Provided resources: {person.desc}
-                  </p>
-                  <p className="people-card__date">Date: {person.date}</p>
+      <h1 className="report-page__title">Звіт 2022-23</h1>
+      <p className={"report-page__subtitle"}>
+        Людям які звернулися за допомогою в звязку з різними життєвими
+        ситуаціями до благодійного фонду Прикарпат Гарант була надана
+        матеріальна підтримка:{" "}
+      </p>
+      <div className="people-card-box">
+        {receivedHelp.map((person) => {
+          return (
+            <>
+              {/*<div className="people-card">*/}
+              {/*  <div className="people-card__inner">*/}
+              {/*    <div className="people-card__info">*/}
+              {/*      <h3 className={"people-card__name"}>*/}
+              {/*        {person.name} {person.surname}*/}
+              {/*      </h3>*/}
+              {/*      <p className="people-card__desc">*/}
+              {/*        Provided resources: {person.desc}*/}
+              {/*      </p>*/}
+              {/*      <p className="people-card__date">Date: {person.date}</p>*/}
+              {/*    </div>*/}
+              {/*    <video*/}
+              {/*      autoPlay*/}
+              {/*      loop*/}
+              {/*      muted*/}
+              {/*      controls*/}
+              {/*      src={person?.src}*/}
+              {/*      style={{*/}
+              {/*        width: "233px",*/}
+              {/*        height: "390px",*/}
+              {/*      }}*/}
+              {/*    />*/}
+              {/*  </div>*/}
+              {/*</div>*/}
+
+              <div className="people-card-wrap">
+                <div className="people-card">
+                  <div className="people-card__top">
+                    <p>{person.name}</p>
+                    <p>{person.surname}</p>
+                  </div>
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    controls
+                    src={person?.src}
+                    style={{
+                      width: "233px",
+                      height: "411px",
+                    }}
+                  />
                 </div>
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  controls
-                  src={person?.src}
-                  style={{
-                    width: "233px",
-                    height: "390px",
-                  }}
-                />
               </div>
-            </div>
-          </>
-        );
-      })}
+            </>
+          );
+        })}
+      </div>
     </div>
   );
 };
