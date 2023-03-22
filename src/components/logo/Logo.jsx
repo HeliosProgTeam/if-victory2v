@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImage from "../../../public/images/logo.svg";
+import LogoImage from "../../../public/images/logov2.jpg";
 import Img from "../Image";
 
 const Logo = () => {
