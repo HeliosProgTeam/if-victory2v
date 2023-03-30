@@ -10,12 +10,12 @@ function MyApp({ Component, pageProps }) {
   const theme = useTheme();
   return (
     <>
-      <Head>
-        <title>ПРИКАРПАТГАРАНТ</title>
-      </Head>
-      <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
+      {/*<Head>*/}
+      {/*  <title>ПРИКАРПАТГАРАНТ</title>*/}
+      {/*</Head>*/}
+      {/*<ThemeProvider theme={theme}>*/}
+      {/*  <Component {...pageProps} />*/}
+      {/*</ThemeProvider>*/}
     </>
   );
 }
