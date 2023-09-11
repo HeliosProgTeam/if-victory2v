@@ -1,17 +1,17 @@
 import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-const DevelopersMedia = () => {
+const FoundationMedia = () => {
   return (
-    <div className={"developers"}>
-      <span className={"developers__rights"}>
+    <div className={"foundation"}>
+      <span className={"foundation__rights"}>
         © {new Date().getFullYear()} Helios, Inc. All Rights reserved
       </span>
-      <div className="developers__media">
-        <div className="developers__item">
+      <div className="foundation__media">
+        <div className="foundation__item">
           <a
             href="https://www.facebook.com/profile.php?id=100091625511309"
-            className={"developers__icon "}
+            className={"foundation__icon "}
             aria-label={"Фейсбук розробника"}
           >
             <FacebookIcon style={{ fontSize: "inherit" }} />
@@ -22,4 +22,4 @@ const DevelopersMedia = () => {
   );
 };
 
-export default DevelopersMedia;
+export default FoundationMedia;
