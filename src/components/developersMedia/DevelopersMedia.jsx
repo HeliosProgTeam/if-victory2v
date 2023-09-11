@@ -5,7 +5,7 @@ const FoundationMedia = () => {
   return (
     <div className={"foundation"}>
       <span className={"foundation__rights"}>
-        © {new Date().getFullYear()} БО &quot;ПРИКАРПАТГАРАНТ&quot; | All Rights reserved
+        © {new Date().getFullYear()} БО &quot;ПРИКАРПАТГАРАНТ&quot;, All Rights reserved
       </span>
       <div className="foundation__media">
         <div className="foundation__item">
