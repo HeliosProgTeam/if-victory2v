@@ -1,4 +1,5 @@
 import React from "react";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 const DevelopersMedia = () => {
   return (
@@ -9,11 +10,11 @@ const DevelopersMedia = () => {
       <div className="developers__media">
         <div className="developers__item">
           <a
-            href="#"
+            href="https://www.facebook.com/profile.php?id=100091625511309"
             className={"developers__icon "}
-            aria-label={"Інстаграм розробника"}
+            aria-label={"Фейсбук розробника"}
           >
-            <InstagramIcon style={{ fontSize: "inherit" }} />
+            <FacebookIcon style={{ fontSize: "inherit" }} />
           </a>
         </div>
       </div>
