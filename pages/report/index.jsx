@@ -165,9 +165,6 @@ const ReportPage = () => {
                     <p>{person.surname}</p>
                   </div>
                   <video
-                    autoPlay
-                    loop
-                    muted
                     controls
                     src={person?.src}
                     style={{

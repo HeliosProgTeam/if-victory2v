@@ -148,9 +148,6 @@ const ReceivedHelp = () => {
                       <p>{people.surname}</p>
                     </div>
                     <video
-                      autoPlay
-                      loop
-                      muted
                       controls
                       src={people?.src}
                       style={{
