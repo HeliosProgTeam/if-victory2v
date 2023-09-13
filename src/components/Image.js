@@ -5,7 +5,7 @@ const Img = ({ src, alt, ...props }) => {
   return (
     <>
       <div className="next-img" >
-        <Image src={src} alt={alt} {...props}/>
+        <Image src={src} alt={alt} loading="eager" {...props}/>
       </div>
     </>
   );
