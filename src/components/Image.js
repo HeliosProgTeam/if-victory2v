@@ -1,11 +1,11 @@
 import React from "react";
-import ExportedImage from "next-image-export-optimizer";
+import Image from "next/image";
 
 const Img = ({ src, alt, ...props }) => {
   return (
     <>
       <div className="next-img" >
-        <ExportedImage src={src} alt={alt} {...props}/>
+        <Image src={src} alt={alt} {...props}/>
       </div>
     </>
   );
