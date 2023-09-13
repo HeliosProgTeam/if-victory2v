@@ -167,10 +167,7 @@ const ReportPage = () => {
                   <video
                     controls
                     src={person?.src}
-                    style={{
-                      width: "233px",
-                      height: "411px",
-                    }}
+                    className="people-card__video"
                   />
                 </div>
               </div>

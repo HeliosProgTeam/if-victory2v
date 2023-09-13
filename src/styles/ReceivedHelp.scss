@@ -71,14 +71,18 @@
     .people-card {
       position: relative;
       width: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
 
       &__top {
         display: flex;
         justify-content: flex-start;
         padding: 5px 12px;
         color: white;
-        position: absolute;
-        border-bottom-left-radius: 20px;
         left: 0px;
         right: 0;
         top: 0;
