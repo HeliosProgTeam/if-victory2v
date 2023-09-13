@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
 const FoundationMedia = () => {
@@ -7,6 +8,11 @@ const FoundationMedia = () => {
       <span className={"foundation__rights"}>
         © {new Date().getFullYear()} БО &quot;ПРИКАРПАТГАРАНТ&quot;, All Rights reserved
       </span>
+      <div>
+        <Link href="/privacy-policy">
+          <span className="foundation__privacy">Політика конфіденціальності</span>
+        </Link>
+      </div>
       <div className="foundation__media">
         <div className="foundation__item">
           <a
