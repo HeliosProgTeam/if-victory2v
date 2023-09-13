@@ -13,86 +13,86 @@ const ReceivedHelp = () => {
 
   const receivedPeople = [
     {
-      src: "/videos/video1.mp4",
+      src: "/videos/video1.webm",
       lastname: "",
       name: "Ігор",
       surname: "Зіновійович",
     },
     {
-      src: "/videos/video2.mp4",
+      src: "/videos/video2.webm",
       lastname: "",
       name: "Оксана",
       surname: "Миколаївна",
     },
     {
-      src: "/videos/video3.mp4",
+      src: "/videos/video3.webm",
       lastname: "Захаров",
       name: "Олег",
       surname: "Генадійович",
     },
     {
-      src: "/videos/video4.mp4",
+      src: "/videos/video4.webm",
       lastname: "",
       name: "Василь",
       surname: "Васильович",
     },
     {
-      src: "/videos/video5.mp4",
+      src: "/videos/video5.webm",
       lastname: "Базилюк",
       name: "Людмила",
       surname: "Миколаївна",
     },
     {
-      src: "/videos/video6.mp4",
+      src: "/videos/video6.webm",
       lastname: "",
       name: "Агрофірма",
       surname: "БУКІВНЯНСЬКА",
     },
 
     {
-      src: "/videos/video7.mp4",
+      src: "/videos/video7.webm",
       lastname: "",
       name: "Валерій",
       surname: "Валерійович",
     },
     {
-      src: "/videos/video8.mp4",
+      src: "/videos/video8.webm",
       lastname: "",
       name: "Михайло",
       surname: "Ілліч",
     },
     {
-      src: "/videos/video9.mp4",
+      src: "/videos/video9.webm",
       lastname: "",
       name: "Олександр",
       surname: "Іванович",
     },
     {
-      src: "/videos/video10.mp4",
+      src: "/videos/video10.webm",
       lastname: "",
       name: "Іван",
       surname: "Іванович",
     },
     {
-      src: "/videos/video11.mp4",
+      src: "/videos/video11.webm",
       lastname: "",
       name: "Юрій",
       surname: "Юрійович",
     },
     {
-      src: "/videos/video12.mp4",
+      src: "/videos/video12.webm",
       lastname: "",
       name: "Василь",
       surname: "Сергійович",
     },
     {
-      src: "/videos/video13.mp4",
+      src: "/videos/video13.webm",
       lastname: "",
       name: "Володимир",
       surname: "Богданович",
     },
     {
-      src: "/videos/video14.mp4",
+      src: "/videos/video14.webm",
       lastname: "",
       name: "Сергій",
       surname: "Олександрович",
@@ -148,9 +148,6 @@ const ReceivedHelp = () => {
                       <p>{people.surname}</p>
                     </div>
                     <video
-                      autoPlay
-                      loop
-                      muted
                       controls
                       src={people?.src}
                       style={{
