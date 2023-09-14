@@ -119,6 +119,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+
   @media screen and (max-width: 600px) {
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -129,6 +130,13 @@ hr {
     }
   }
   &__privacy {
+    &:hover {
+      color: #2d2d2d;
+    }
+    font-family: "Jost", serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.005em;
     color: #9a9999;
   }
   &__media {
