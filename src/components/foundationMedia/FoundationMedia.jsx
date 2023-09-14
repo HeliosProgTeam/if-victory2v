@@ -10,7 +10,7 @@ const FoundationMedia = () => {
       </span>
       <div>
         <Link href="/privacy-policy">
-          <span className="foundation__privacy">Політика конфіденціальності</span>
+          <span className="foundation__privacy">Політика конфіденційності</span>
         </Link>
       </div>
       <div className="foundation__media">
