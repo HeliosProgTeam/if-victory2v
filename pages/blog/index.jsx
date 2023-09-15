@@ -1,4 +1,5 @@
 import React from "react";
+import { withLayout } from "../../src/layout/Layout";
 import BlogList from "../../src/blogList/BlogList";
 
 const blogItems = [
@@ -43,4 +44,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default withLayout(BlogPage);
