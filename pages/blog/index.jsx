@@ -1,4 +1,5 @@
 import React from "react";
+import BlogList from "../../src/blogList/BlogList";
 
 const blogItems = [
   {
