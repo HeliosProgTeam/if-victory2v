@@ -7,6 +7,10 @@
   width: 1400px;
   margin: 0 auto;
 
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+
   &__title {
     padding: 100px 10px 0;
     text-align: center;
@@ -31,22 +35,26 @@
   width: 405px;
   margin: 16px;
 
-  .blog-item-header {
-    height: 270px;
+  @media screen and (max-width: 900px) {
+    width: 90%;
+  }
 
+  .blog-item-header {
     &__image {
-      border-radius: 8px 8px 0px 0px;
+      border-radius: 6px 6px 0px 0px;
     }
   }
 
   .blog-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    height: 270px;
     padding: 14px 15px 15px;
+    height: 100%;
 
     &__title {
       font-size: 20px;
-      height: 230px;
       overflow: hidden;
     }
 
