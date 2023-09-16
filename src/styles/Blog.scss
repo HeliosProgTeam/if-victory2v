@@ -58,9 +58,10 @@
       overflow: hidden;
     }
 
-    &__item-date {
-      font-size: 0.8rem;
-      color: #888;
+    &__date {
+      font-family: "Jost", serif;
+      margin: 10px 0px 0px;
+      color: #9a9999;
     }
   }
 }
