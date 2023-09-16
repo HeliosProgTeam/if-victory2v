@@ -1,39 +1,40 @@
 import React from "react";
 import { withLayout } from "../../src/layout/Layout";
 import BlogList from "../../src/blogList/BlogList";
+import SampleImage from "../../public/images/sample_blog_image.webp"
 
 const blogItems = [
   {
     id: 1,
-    imgPath: "images/sample-blog-image.jpg",
+    img: SampleImage,
     title: "Blog Post 1",
     text: "This is the content of Blog Post.",
     date: "2023-09-15",
   },
   {
     id: 2,
-    imgPath: "images/sample-blog-image.jpg",
+    img: SampleImage,
     title: "Blog Post 1",
     text: "This is the content of Blog Post.",
     date: "2023-09-15",
   },
   {
     id: 3,
-    imgPath: "images/sample-blog-image.jpg",
+    img: SampleImage,
     title: "Blog Post 1",
     text: "This is the content of Blog Post.",
     date: "2023-09-15",
   },
   {
     id: 4,
-    imgPath: "images/sample-blog-image.jpg",
+    img: SampleImage,
     title: "Blog Post 1",
     text: "This is the content of Blog Post.",
     date: "2023-09-15",
   },
   {
     id: 5,
-    imgPath: "images/sample-blog-image.jpg",
+    img: SampleImage,
     title: "Blog Post 1",
     text: "This is the content of Blog Post.",
     date: "2023-09-15",

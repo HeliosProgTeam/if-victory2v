@@ -7,7 +7,7 @@ const BlogList = ({ blogItems }) => {
       {blogItems.map((item) => (
         <BlogItem
           key={item.id}
-          imgPath={item.imgPath}
+          img={item.img}
           title={item.title}
           text={item.text}
           date={item.date}
