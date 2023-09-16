@@ -40,14 +40,14 @@
   }
 
   .blog-item-content {
+    width: 100%;
     height: 270px;
+    padding: 14px 15px 15px;
 
     &__title {
-      font-size: 1.3rem;
-    }
-
-    &__text {
-      font-size: 1rem;
+      font-size: 20px;
+      height: 230px;
+      overflow: hidden;
     }
 
     &__item-date {

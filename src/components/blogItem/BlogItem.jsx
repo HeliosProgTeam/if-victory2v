@@ -8,8 +8,7 @@ const BlogItem = ({ img, title, text, date }) => {
         <Img src={img} alt={title} className="blog-item-header__image" />
       </div>
       <div className="blog-item-content">
-        <h2 className="blog-item-content__title">{title}</h2>
-        <p className="blog-item-content__text">{text}</p>
+        <h2 className="blog-item-content__title"><strong>{title}</strong> {text}</h2>
         <p className="blog-item-content__date">{date}</p>
       </div>
     </div>
