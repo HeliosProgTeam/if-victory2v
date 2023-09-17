@@ -1,7 +1,7 @@
 import React from "react";
 import { withLayout } from "../../src/layout/Layout";
 import BlogList from "../../src/blogList/BlogList";
-import SampleImage from "../../public/images/sample_blog_image.webp"
+import SampleImage from "../../public/images/medic_help.webp"
 
 const blogItems = [
   {
