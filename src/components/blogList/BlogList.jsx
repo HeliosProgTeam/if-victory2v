@@ -1,5 +1,5 @@
 import React from "react";
-import BlogItem from "../blogItem/blogItem";
+import BlogItem from "../blogItem/BlogItem";
 
 const BlogList = ({ blogItems }) => {
   return (
