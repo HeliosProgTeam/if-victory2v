@@ -14,7 +14,8 @@ const BlogEntry = () => {
   return (
     <div className="blog-entry">
       <div className="blog-entry-header">
-        <h1 className="blog-entry-header__title">Blog title</h1>
+        <h1 className="blog-entry-header__title">Blog title Blog title Blog title Blog title Blog title Blog title </h1>
+        <p className="blog-entry-header__date">16.09.2023</p>
         <Img src={SampleImage} alt={id} className="blog-entry-header__image" />
       </div>
       <div className="blog-entry-content">

@@ -27,6 +27,11 @@ $desktop-width: 1280px;
       height: auto;
       border-radius: 8px;
     }
+
+    &__date {
+      font-family: "Jost", serif;
+      color: #9a9999;
+    }
   }
 
   &-content {
