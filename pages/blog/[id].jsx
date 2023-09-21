@@ -7,38 +7,10 @@ const blogItems = [
   {
     id: 1,
     img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
+    title: "Прикарпат Гарант. Історія створення організації та наша мета.",
+    text: "22 Лютого 2022 року - Російське вторгнення в Україну. Неприпинне бомбардування міст та сіл України. Гинуть люди, гинуть діти, гине все живе внаслідок російських ракет. Люди починають обєднуватися та ставати на захист своєї країни.\nЙшов пятий місяць війни. Я, Лікаренко Петро Васильович, реєструю свою благодійну організацію, щоб мати можливість допомогти країні.\n21 Липня 2022 року, в місті Івано-Франківськ була офіційно зарегістрована благодійна організація «Прикарпат Гарант».\nМета нашої організації чітка і непохитна: розширювати можливость спільнот та створювати позитивні зміни для людей та нашої країни.",
     date: "16.09.2023",
-  },
-  {
-    id: 2,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
-  {
-    id: 3,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
-  {
-    id: 4,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
-  {
-    id: 5,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
+  }
 ];
 
 const BlogEntry = ({ blogItem }) => {

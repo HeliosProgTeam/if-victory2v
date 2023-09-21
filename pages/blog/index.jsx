@@ -7,36 +7,8 @@ const blogItems = [
   {
     id: 1,
     img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
-  {
-    id: 2,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
-  {
-    id: 3,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
-  {
-    id: 4,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
-    date: "16.09.2023",
-  },
-  {
-    id: 5,
-    img: SampleImage,
-    title: "Blog Post 1 This is the header of Blog Post. ",
-    text: "This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post. This is the content of Blog Post.",
+    title: "Прикарпат Гарант. Історія створення організації та наша мета.",
+    text: "Йшов пятий місяць війни. Я, Лікаренко Петро Васильович, реєструю свою благодійну організацію, щоб мати можливість допомогти країні.",
     date: "16.09.2023",
   }
 ];
