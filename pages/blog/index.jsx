@@ -1,12 +1,12 @@
 import React from "react";
 import { withLayout } from "../../src/layout/Layout";
 import BlogList from "../../src/components/blogList/BlogList";
-import SampleImage from "../../public/images/sample_blog_image.webp"
+import BlogImageOne from "../../public/images/blog_image_1.webp";
 
 const blogItems = [
   {
     id: 1,
-    img: SampleImage,
+    img: BlogImageOne,
     title: "Прикарпат Гарант. Історія створення організації та наша мета.",
     text: "Йшов пятий місяць війни. Я, Лікаренко Петро Васильович, реєструю свою благодійну організацію, щоб мати можливість допомогти країні.",
     date: "16.09.2023",
