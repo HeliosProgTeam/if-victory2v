@@ -4,7 +4,7 @@ import { withLayout } from "../../src/layout/Layout";
 const PrivacyPolicyPage = () => {
   return (
     <div className="privacy-policy-page">
-      <h1 className="privacy-policy-page__title">Privacy Policy</h1>
+      <h1 className="privacy-policy-page__title">Політика конфіденційності</h1>
       <h2 className="privacy-policy-page__subtitle">
         Останнє оновлення: 11.09.2023
       </h2>
