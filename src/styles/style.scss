@@ -35,10 +35,6 @@ h4 {
   margin-bottom: 15px;
 }
 
-section {
-  //min-height: 100vh;
-}
-
 .next-img {
   height: inherit;
   width: inherit;
@@ -202,8 +198,6 @@ section {
     @media screen and (max-width: 768px) {
       flex-direction: column;
       gap: 20px;
-    }
-    &-info {
     }
 
     &-text {
