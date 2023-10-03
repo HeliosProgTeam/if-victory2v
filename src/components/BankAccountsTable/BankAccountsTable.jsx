@@ -1,6 +1,5 @@
 const data = [
   {
-    // title: "EUR",
     rows: [
       {
         head: "EUR",
@@ -9,7 +8,6 @@ const data = [
     ],
   },
   {
-    // title: "EUR",
     rows: [
       {
         head: "USD",
@@ -18,7 +16,6 @@ const data = [
     ],
   },
   {
-    // title: "EUR",
     rows: [
       {
         head: "UAH",
@@ -29,14 +26,12 @@ const data = [
 ];
 
 export default function BankAccountsTable() {
-  // {title,list}
   return (
     <div className={"table"}>
       {data.map((table) => {
         return (
           <div className="table__wrap" key={table.title}>
             <p className="table__title">{table.title}</p>
-            {/*<div className="table__wrap" >*/}
             {table.rows.map((row) => {
               return (
                 <div
@@ -65,7 +60,6 @@ export default function BankAccountsTable() {
                 </div>
               );
             })}
-            {/*</div>*/}
           </div>
         );
       })}
