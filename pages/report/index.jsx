@@ -133,31 +133,6 @@ const ReportPage = () => {
         {receivedHelp.map((person) => {
           return (
             <>
-              {/*<div className="people-card">*/}
-              {/*  <div className="people-card__inner">*/}
-              {/*    <div className="people-card__info">*/}
-              {/*      <h3 className={"people-card__name"}>*/}
-              {/*        {person.name} {person.surname}*/}
-              {/*      </h3>*/}
-              {/*      <p className="people-card__desc">*/}
-              {/*        Provided resources: {person.desc}*/}
-              {/*      </p>*/}
-              {/*      <p className="people-card__date">Date: {person.date}</p>*/}
-              {/*    </div>*/}
-              {/*    <video*/}
-              {/*      autoPlay*/}
-              {/*      loop*/}
-              {/*      muted*/}
-              {/*      controls*/}
-              {/*      src={person?.src}*/}
-              {/*      style={{*/}
-              {/*        width: "233px",*/}
-              {/*        height: "390px",*/}
-              {/*      }}*/}
-              {/*    />*/}
-              {/*  </div>*/}
-              {/*</div>*/}
-
               <div className="people-card-wrap">
                 <div className="people-card">
                   <div className="people-card__top">

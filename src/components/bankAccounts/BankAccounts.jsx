@@ -44,7 +44,6 @@ export default function BankAccounts({ className }) {
           letterSpacing: "0.005em",
           zIndex: "1",
         }}
-        // className={className}
       >
         Реквiзити
       </Button>

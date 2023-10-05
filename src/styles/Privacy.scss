@@ -6,13 +6,12 @@
   text-align: justify;
 
   &__title {
-    padding: 15px 10px 0;
+    padding: 100px 10px 0;
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
 
     @media screen and (max-width: 768px) {
-      padding: 25px 10px 0;
       font-size: 30px;
     }
   }

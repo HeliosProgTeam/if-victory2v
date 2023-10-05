@@ -31,7 +31,6 @@ const Nav = ({ ...other }) => {
         </li>
       </ul>
     </div>
-    // fdfd
   );
 };
 

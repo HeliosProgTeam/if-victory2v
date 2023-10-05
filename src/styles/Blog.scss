@@ -68,7 +68,7 @@ $desktop-width: 1280px;
   .blog-list {
     .blog-item {
       width: 100%;
-      max-width: none; // Reset max-width for mobile
+      max-width: none; 
     }
   }
 }
@@ -76,7 +76,7 @@ $desktop-width: 1280px;
 @media (min-width: $tablet-width) {
   .blog-list {
     .blog-item {
-      width: calc(50% - 32px); // Two items per row with some margin
+      width: calc(50% - 32px); 
     }
   }
 }
@@ -84,7 +84,7 @@ $desktop-width: 1280px;
 @media (min-width: $laptop-width) {
   .blog-list {
     .blog-item {
-      width: calc(33.33% - 32px); // Three items per row with some margin
+      width: calc(33.33% - 32px);
     }
   }
 }
@@ -92,7 +92,7 @@ $desktop-width: 1280px;
 @media (min-width: $desktop-width) {
   .blog-list {
     .blog-item {
-      width: calc(25% - 32px); // Four items per row with some margin
+      width: calc(25% - 32px);
     }
   }
 }
