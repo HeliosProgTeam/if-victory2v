@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
             content="charity,donation,ukraine,prykarpatgarant,"
           />
           <meta name="author" content="IF-Victory" />
-          <link rel="shortcut icon" href="/images/logo.svg" sizes={"192x192"} />
+          <link rel="shortcut icon" href="/images/logov2.ico" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link

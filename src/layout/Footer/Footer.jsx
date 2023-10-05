@@ -1,5 +1,5 @@
 import React from "react";
-import DevelopersMedia from "../../components/developersMedia/DevelopersMedia";
+import FoundationMedia from "../../components/foundationMedia/FoundationMedia";
 import Links from "../../components/links/Links";
 
 export const Footer = ({ ...props }) => {
@@ -7,7 +7,7 @@ export const Footer = ({ ...props }) => {
     <footer className={"footer"} id={"contactssection"} {...props}>
       <Links />
       <hr />
-      <DevelopersMedia />
+      <FoundationMedia />
     </footer>
   );
 };

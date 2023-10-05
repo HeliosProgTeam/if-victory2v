@@ -21,12 +21,16 @@ const Nav = ({ ...other }) => {
             Контакти
           </a>
         </li>
+        <li className="nav__item" {...other}>
+          <Link href="/blog">
+            <span className="nav__link">Блог</span>
+          </Link>
+        </li>
         <li className="nav__item">
           <BankAccounts />
         </li>
       </ul>
     </div>
-    // fdfd
   );
 };
 

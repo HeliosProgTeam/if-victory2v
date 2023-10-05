@@ -1,8 +1,6 @@
 import React from "react";
 import BannerImg from "../../components/bannerImg/BannerImg";
 import ArmyImg from "../../../public/images/army_help.webp";
-// import SocialImg from "../../../public/images/social_help_1.webp";
-// import MedicImg from "../../../public/images/medic_help.webp";
 import FarmerImg from "../../../public/images/banner_vechile.svg";
 import SocialImg from "../../../public/images/banner_donation.webp";
 
