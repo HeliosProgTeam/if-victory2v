@@ -1,7 +1,6 @@
 import React from "react";
 import BannerImg from "../../components/bannerImg/BannerImg";
 import ArmyImg from "../../../public/images/army_help.webp";
-import FarmerImg from "../../../public/images/banner_vechile.svg";
 import SocialImg from "../../../public/images/banner_donation.webp";
 
 const About = () => {
