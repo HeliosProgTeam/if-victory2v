@@ -15,12 +15,6 @@ const About = () => {
             src={ArmyImg}
           />
           <BannerImg
-            desc={"Пiдтримка аграрної сфери України"}
-            alt={"Пiдтримка аграрної сфери України"}
-            src={FarmerImg}
-          />
-
-          <BannerImg
             desc={"Соцiальна допомога громадянам"}
             alt={"Соцiальна допомога громадянам"}
             src={SocialImg}
