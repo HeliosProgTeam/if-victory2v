@@ -1,7 +1,7 @@
 .activities{
     padding: 63px 70px 114px;
 
-    &-title{
+    &__title{
         text-align: center;
         font-weight: 800;
         font-size: 36px;
@@ -9,9 +9,26 @@
         letter-spacing: 0.005em;
         margin-bottom: 34px;
     }
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .activity{
-    max-width: 80%;
+    max-width: 50%;
     border: 2px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+
+    &-img{
+        margin: 0px 0px 15px 0px;
+    }
 }

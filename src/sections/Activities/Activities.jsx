@@ -14,11 +14,13 @@ const Activities = () => {
     <section className="activities">
         <h2 className={"activities__title"}>Напрямки діяльності нашого фонду</h2>
         <Divider />
-        {data.map((val, idx, arr) => {
-            return (
-                <Activity key={idx} {...val}/>
-            )
-        })}
+        <div className="activities-container">
+          {data.map((val, idx, arr) => {
+              return (
+                  <Activity key={idx} {...val}/>
+              )
+          })}
+        </div>
     </section>
   )
 };
