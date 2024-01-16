@@ -3,7 +3,7 @@ import Img from "../Image";
 
 const Activity = ({ src, alt, title }) => {
   return (
-    <div className="activity-wrapper">
+    <div className="activity">
       <div className="activity-img">
         <Img src={src} alt={alt} />
       </div>
