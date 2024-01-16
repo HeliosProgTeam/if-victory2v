@@ -92,13 +92,16 @@
       }
 
       .about__desc {
-        max-width: 979px;
         width: 100%;
         font-weight: 500;
         font-size: 20px;
         line-height: 28px;
         color: #555555;
         letter-spacing: 0.005em;
+
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
       }
     }
   }
