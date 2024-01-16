@@ -3,6 +3,8 @@ import BannerImg from "../../components/bannerImg/BannerImg";
 import ArmyImg from "../../../public/images/army_help.webp";
 import SocialImg from "../../../public/images/banner_donation.webp";
 import Divider from "../../components/divider/Divider";
+import Img from "../../components/Image";
+import AboutImg from "../../../public/images/about.jpg";
 
 const About = () => {
   return (
@@ -25,6 +27,7 @@ const About = () => {
         <div className="about__goal-inner">
           <h2 className={"about__title"}>Про нас</h2>
           <Divider />
+          <Img src={AboutImg} alt={'Team'}/>
           <p className={"about__desc"}>
             Прикарпат Гарант – це спілка волонтерів, які взяли на себе
             зобов&rsquo;язання працювати на максимум для досягнення перемоги
