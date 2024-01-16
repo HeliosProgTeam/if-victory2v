@@ -27,7 +27,9 @@ const About = () => {
         <div className="about__goal-inner">
           <h2 className={"about__title"}>Про нас</h2>
           <Divider />
-          <Img src={AboutImg} alt={'Team'}/>
+          <div className="about-image">
+            <Img src={AboutImg} alt={'Team'}/>
+          </div>
           <p className={"about__desc"}>
             Прикарпат Гарант – це спілка волонтерів, які взяли на себе
             зобов&rsquo;язання працювати на максимум для досягнення перемоги
