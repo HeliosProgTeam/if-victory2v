@@ -6,11 +6,6 @@ import Activity from "../../components/Activity/Activity";
 
 const data = [
   {
-    src: PlaceholderImg,
-    alt: 'placeholder',
-    title: 'Some text',
-  }, 
-  {
     src: ShieldImg,
     alt: 'placeholder',
     title: 'Забезпечення потреб захисників України',
