@@ -73,15 +73,14 @@
   }
 
   &__goal {
-    padding: 63px 70px 114px 70px;
+    padding: 65px 70px 65px 70px;
     @media screen and (max-width: 900px) {
-      padding: 30px 15px 30px 30px;
+      padding: 30px 30px 30px 30px;
     }
     @media screen and (max-width: 600px) {
       padding: 30px 15px;
     }
     &-inner {
-      padding-right: 20px;
       .about__title {
         text-align: center;
         font-weight: 800;
@@ -104,5 +103,9 @@
         }
       }
     }
+  }
+
+  &-image{
+    margin-bottom: 20px;
   }
 }
