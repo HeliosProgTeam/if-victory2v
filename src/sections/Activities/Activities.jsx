@@ -1,13 +1,21 @@
 import React from "react";
 import Divider from "../../components/divider/Divider";
 import PlaceholderImg from "../../../public/images/placeholder.svg";
+import ShieldImg from "../../../public/images/shield.svg";
 import Activity from "../../components/Activity/Activity";
 
-const data = [{
+const data = [
+  {
     src: PlaceholderImg,
     alt: 'placeholder',
     title: 'Some text',
-}];
+  }, 
+  {
+    src: ShieldImg,
+    alt: 'placeholder',
+    title: 'Забезпечення потреб захисників України',
+  }
+];
 
 const Activities = () => {
   return (
