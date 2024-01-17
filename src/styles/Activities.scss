@@ -1,6 +1,14 @@
 .activities{
     padding: 63px 70px 114px;
 
+    @media screen and (max-width: 900px) {
+        padding: 30px 15px 30px 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 30px 15px;
+    }
+
     &__title{
         text-align: center;
         font-weight: 800;
@@ -19,14 +27,26 @@
 }
 
 .activity{
-    max-width: 50%;
+    max-width: 45%;
     border: 2px solid #dddddd;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 15px;
+    padding: 20px 30px;
+
+    @media screen and (max-width: 900px) {
+        max-width: 60%;
+    }
+
+    @media screen and (max-width: 600px) {
+        max-width: 90%;
+    }
+    
+    &:not(:last-child){
+        margin: 0px 0px 20px 0px;
+    }
 
     &-img{
         margin: 0px 0px 15px 0px;
