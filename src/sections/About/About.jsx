@@ -9,7 +9,7 @@ import AboutImg from "../../../public/images/about.jpg";
 const About = () => {
   return (
     <section className={"about"}>
-      <div className="about__top">
+      {/* <div className="about__top">
         <div className="about__banners">
           <BannerImg
             desc={"Допомога Збройним Силам України"}
@@ -22,7 +22,7 @@ const About = () => {
             src={SocialImg}
           />
         </div>
-      </div>
+      </div> */}
       <div className="about__goal">
         <div className="about__goal-inner">
           <h2 className={"about__title"}>Про нас</h2>
