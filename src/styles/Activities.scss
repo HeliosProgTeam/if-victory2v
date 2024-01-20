@@ -26,11 +26,17 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
+        gap: 15px;
+
+
+        @media screen and (max-width: 900px) {
+            grid-template-columns: 1fr;
+        }
     }
 }
 
 .activity{
-    max-width: 45%;
+    // max-width: 45%;
     border: 2px solid #dddddd;
     border-radius: 6px;
     display: flex;
