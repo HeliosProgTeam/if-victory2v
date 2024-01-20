@@ -1,14 +1,26 @@
 import React from "react";
 import Divider from "../../components/divider/Divider";
-import PlaceholderImg from "../../../public/images/placeholder.svg";
-import ShieldImg from "../../../public/images/shield.svg";
 import Activity from "../../components/Activity/Activity";
+
+import PeaceImg from "../../../public/images/peace.png";
+import MedicineImg from "../../../public/images/medicine.png";
+import ProductsImg from "../../../public/images/products.png";
 
 const data = [
   {
-    src: ShieldImg,
-    alt: 'placeholder',
+    src: PeaceImg,
+    alt: 'peace',
     title: 'Забезпечення потреб захисників України',
+  }, 
+  {
+    src: ProductsImg,
+    alt: 'products',
+    title: 'Гуманітарна допомога',
+  },
+  {
+    src: MedicineImg,
+    alt: 'medicine',
+    title: 'Медичне забезпечення',
   }
 ];
 
