@@ -8,8 +8,8 @@ function Home() {
   return (
     <>
       <MainSection />
-      <About />
       <Activities />
+      <About />
     </>
   );
 }

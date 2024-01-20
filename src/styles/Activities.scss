@@ -29,7 +29,13 @@
         gap: 15px;
 
         @media screen and (max-width: 900px) {
-            grid-template-columns: 0.6fr;
+            grid-template-columns: 0.7fr;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            grid-template-columns: 0.9fr;
             align-items: center;
             justify-content: center;
         }
