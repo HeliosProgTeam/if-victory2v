@@ -28,9 +28,10 @@
         grid-template-rows: 1fr;
         gap: 15px;
 
-
         @media screen and (max-width: 900px) {
-            grid-template-columns: 1fr;
+            grid-template-columns: 0.6fr;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
@@ -45,13 +46,13 @@
     align-items: center;
     padding: 20px 30px;
 
-    @media screen and (max-width: 900px) {
-        max-width: 60%;
-    }
+    // @media screen and (max-width: 900px) {
+    //     max-width: 60%;
+    // }
 
-    @media screen and (max-width: 600px) {
-        max-width: 90%;
-    }
+    // @media screen and (max-width: 600px) {
+    //     max-width: 90%;
+    // }
     
     // &:not(:last-child){
     //     margin: 0px 0px 20px 0px;
