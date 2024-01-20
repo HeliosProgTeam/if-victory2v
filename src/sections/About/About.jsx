@@ -1,7 +1,4 @@
 import React from "react";
-import BannerImg from "../../components/bannerImg/BannerImg";
-import ArmyImg from "../../../public/images/army_help.webp";
-import SocialImg from "../../../public/images/banner_donation.webp";
 import Divider from "../../components/divider/Divider";
 import Img from "../../components/Image";
 import AboutImg from "../../../public/images/about.jpg";
@@ -9,20 +6,6 @@ import AboutImg from "../../../public/images/about.jpg";
 const About = () => {
   return (
     <section className={"about"}>
-      {/* <div className="about__top">
-        <div className="about__banners">
-          <BannerImg
-            desc={"Допомога Збройним Силам України"}
-            alt={"Допомога Збройним Силам України"}
-            src={ArmyImg}
-          />
-          <BannerImg
-            desc={"Соцiальна допомога громадянам"}
-            alt={"Соцiальна допомога громадянам"}
-            src={SocialImg}
-          />
-        </div>
-      </div> */}
       <div className="about__goal">
         <div className="about__goal-inner">
           <h2 className={"about__title"}>Про нас</h2>
