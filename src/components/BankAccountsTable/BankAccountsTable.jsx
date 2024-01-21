@@ -29,17 +29,17 @@ const data = [
   {
     currencyCode: "UAH",
     ibanCountryCode: "UA 93 325365 0000000260080039685",
-    accountNumber: '44881350',
+    accountNumber: '0000000260080039685',
   },
   {
       currencyCode: "EUR",
       ibanCountryCode: "UA 32 325365 0000000260020039687",
-      accountNumber: '44881350',
+      accountNumber: '0000000260020039687',
   },
   {
     currencyCode: "USD",
     ibanCountryCode: "UA 14 325365 0000000260050039686",
-    accountNumber: '44881350',
+    accountNumber: '0000000260050039686',
 },
 ]
 
