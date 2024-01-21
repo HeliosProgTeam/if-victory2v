@@ -1,30 +1,3 @@
-// const data = [
-//   {
-//     rows: [
-//       {
-//         head: "EUR",
-//         value: "UA 32 325365 0000000260020039687",
-//       },
-//     ],
-//   },
-//   {
-//     rows: [
-//       {
-//         head: "USD",
-//         value: "UA 14 325365 0000000260050039686",
-//       },
-//     ],
-//   },
-//   {
-//     rows: [
-//       {
-//         head: "UAH",
-//         value: "UA 93 325365 0000000260080039685",
-//       },
-//     ],
-//   },
-// ];
-
 const data = [
   {
     currencyCode: "UAH",
@@ -67,7 +40,7 @@ function BankAccount({currencyCode, ibanCountryCode, accountNumber}) {
   )
 }
 
-export default function BankAccountsTable() {
+export default function BankAccounts() {
   return (
     <div className={"accounts-container"}>
       {
