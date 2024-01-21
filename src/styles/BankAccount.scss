@@ -6,9 +6,14 @@
     &__info{
         display: flex;
         flex-direction: column; 
+        padding: 15px 10px;
     }
 
     &__title {
         background-color: #eff6ff;
     }
+}
+
+.bank-account:not(:last-child) {
+    margin: 0px 0px 20px 0px;
 }
