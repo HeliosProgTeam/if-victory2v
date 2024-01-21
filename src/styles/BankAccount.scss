@@ -1,0 +1,11 @@
+.bank-account {
+    border-width: 3px;
+    border-color: #eff6ff;
+    display: flex;
+    flex-direction: column;
+
+    &__info{
+        display: flex;
+        flex-direction: column; 
+    }
+}

@@ -1,68 +1,78 @@
+// const data = [
+//   {
+//     rows: [
+//       {
+//         head: "EUR",
+//         value: "UA 32 325365 0000000260020039687",
+//       },
+//     ],
+//   },
+//   {
+//     rows: [
+//       {
+//         head: "USD",
+//         value: "UA 14 325365 0000000260050039686",
+//       },
+//     ],
+//   },
+//   {
+//     rows: [
+//       {
+//         head: "UAH",
+//         value: "UA 93 325365 0000000260080039685",
+//       },
+//     ],
+//   },
+// ];
+
 const data = [
   {
-    rows: [
-      {
-        head: "EUR",
-        value: "UA 32 325365 0000000260020039687",
-      },
-    ],
+    currencyCode: "UAH",
+    ibanCountryCode: "UA 93 325365 0000000260080039685",
+    accountNumber: '44881350',
   },
   {
-    rows: [
-      {
-        head: "USD",
-        value: "UA 14 325365 0000000260050039686",
-      },
-    ],
+      currencyCode: "EUR",
+      ibanCountryCode: "UA 32 325365 0000000260020039687",
+      accountNumber: '44881350',
   },
   {
-    rows: [
-      {
-        head: "UAH",
-        value: "UA 93 325365 0000000260080039685",
-      },
-    ],
-  },
-];
+    currencyCode: "USD",
+    ibanCountryCode: "UA 14 325365 0000000260050039686",
+    accountNumber: '44881350',
+},
+]
+
+function BankAccount({currencyCode, ibanCountryCode, accountNumber}) {
+  return (
+    <div className="bank-account">
+      <h4 className="bank-account__title">{currencyCode}</h4>
+      <div className="bank-account__info">
+        <p>
+          <p className="bank-account__bank">
+          Beneficiary bank: KREDOBANK
+          </p>
+          <p className="bank-account__country-code">
+            {ibanCountryCode}
+          </p>
+          <p className="bank-account__account-number">
+            {accountNumber}
+          </p>
+          <p className="bank-account__identification-code">
+            44881350
+          </p>
+        </p>
+      </div>
+    </div>
+  )
+}
 
 export default function BankAccountsTable() {
   return (
-    <div className={"table"}>
-      {data.map((table) => {
-        return (
-          <div className="table__wrap" key={table.title}>
-            <p className="table__title">{table.title}</p>
-            {table.rows.map((row) => {
-              return (
-                <div
-                  className={"table__row"}
-                  key={table.title + row.head}
-                  style={{ whiteSpace: "pre-line" }}
-                >
-                  <div className="table__head">
-                    <p>{row.head}</p>
-                  </div>
-                  <div className="table__value">
-                    <p>
-                      {typeof row.value === "object"
-                        ? Object.values(row.value).map((bank, index) => (
-                            <>
-                              <p style={{ marginBottom: "10px" }}>{bank}</p>
-                              {index + 1 !==
-                                Object.values(row.value).length && (
-                                <p>or/або</p>
-                              )}
-                            </>
-                          ))
-                        : row.value}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        );
-      })}
+    <div className={"accounts-container"}>
+      {
+        data.map((accountInfo, idx) => <BankAccount key={idx} {...accountInfo} />)
+      }
     </div>
   );
 }
