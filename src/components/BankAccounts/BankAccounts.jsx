@@ -23,16 +23,16 @@ function BankAccount({currencyCode, ibanCountryCode, accountNumber}) {
       <div className="bank-account__info">
         <p>
           <p className="bank-account__bank">
-          Beneficiary bank: KREDOBANK
+            Beneficiary bank: KREDOBANK
           </p>
           <p className="bank-account__country-code">
-            {ibanCountryCode}
+            IBAN country code: {ibanCountryCode}
           </p>
           <p className="bank-account__account-number">
-            {accountNumber}
+            Account number: {accountNumber}
           </p>
           <p className="bank-account__identification-code">
-            44881350
+            Identification code: 44881350
           </p>
         </p>
       </div>
