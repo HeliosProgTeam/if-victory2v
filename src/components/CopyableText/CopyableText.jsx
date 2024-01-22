@@ -7,7 +7,7 @@ export default function CopyableText({ children }) {
     }
 
     return (
-        <span className="copyable-text">
+        <span className="copyable-text" onClick={handleClick}>
             { children }
         </span>
     )
