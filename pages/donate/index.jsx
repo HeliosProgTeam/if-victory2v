@@ -1,5 +1,5 @@
 import { withLayout } from "../../src/layout/Layout";
-import { BankAccounts } from "../../src/components/BankAccounts/BankAccounts";
+import BankAccounts from "../../src/components/BankAccounts/BankAccounts";
 
 function Donate() {
     return (
