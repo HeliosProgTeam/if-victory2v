@@ -2,9 +2,9 @@ import React from "react";
 import Divider from "../../components/divider/Divider";
 import Activity from "../../components/Activity/Activity";
 
-import PeaceImg from "../../../public/images/peace.png";
-import MedicineImg from "../../../public/images/medicine.png";
-import ProductsImg from "../../../public/images/products.png";
+import PeaceImg from "../../../public/images/peace.svg";
+import MedicineImg from "../../../public/images/medicine.svg";
+import ProductsImg from "../../../public/images/products.svg";
 
 const data = [
   {
