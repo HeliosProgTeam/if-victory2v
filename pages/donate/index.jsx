@@ -5,7 +5,7 @@ import Divider from "../../src/components/divider/Divider";
 function Donate() {
     return (
         <div className="donate">
-            <h2 className="donate__title"></h2>
+            <h2 className="donate__title">Рахунки для платежів із-за кордону та по Україні</h2>
             <Divider />
             <BankAccounts />
         </div>
