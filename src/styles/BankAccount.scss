@@ -15,6 +15,13 @@
         margin: 0px;
         color: #0059c1
     }
+
+    &__bank:not(:last-child),
+    &__country-code:not(:last-child),
+    &__identification-code:not(:last-child),
+    &__account-number:not(:last-child) {
+        margin: 0px 0px 5px 0px;
+    }
 }
 
 .bank-account:not(:last-child) {
