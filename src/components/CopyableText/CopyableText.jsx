@@ -1,9 +1,6 @@
 export default function CopyableText({ children }) {
-    function handleClick(e) {
-        navigator.clipboard.writeText(e.target.textContent)
-        .then((res) => {
-            console.log('Success');
-        })
+    async function handleClick(e) {
+        await navigator.clipboard.writeText(e.target.textContent)
     }
 
     return (

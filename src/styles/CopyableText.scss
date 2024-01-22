@@ -1,0 +1,9 @@
+.copyable-text {
+    color: #0059c1;
+    transition-duration: 0.25s;
+
+    &:hover{
+        color: #056ce1;
+        transition-duration: 0.25s;
+    }
+}
