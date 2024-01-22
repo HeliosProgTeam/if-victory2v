@@ -1,3 +1,5 @@
+import CopyableText from "../CopyableText/CopyableText";
+
 const data = [
   {
     currencyCode: "UAH",
@@ -23,7 +25,7 @@ function BankAccount({currencyCode, ibanCountryCode, accountNumber}) {
       <div className="bank-account__info">
         <p>
           <p className="bank-account__bank">
-            Beneficiary bank: KREDOBANK
+            Beneficiary bank: <CopyableText>KREDOBANK</CopyableText>
           </p>
           <p className="bank-account__country-code">
             IBAN country code: {ibanCountryCode}
