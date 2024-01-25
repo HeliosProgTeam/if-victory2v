@@ -2,6 +2,7 @@ import React from "react";
 import BgImg from "../../../public/images/sunflower-bg.webp";
 import Img from "../../components/Image";
 import { useMediaQuery, useTheme } from "@mui/material";
+import Link from "next/link";
 
 export const MainSection = ({ ...props }) => {
   const theme = useTheme();
@@ -17,7 +18,11 @@ export const MainSection = ({ ...props }) => {
                 ПРИКАРПАТ ГАРАНТ
                 <span style={{fontSize:"30px"}}> Благодiйний фонд</span>
               </h1>
-              <button className="home__donation-btn">Підтримати нас</button>
+              <Link href='/donate'>
+                <a>
+                  <button className="home__donation-btn">Підтримати нас</button>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
