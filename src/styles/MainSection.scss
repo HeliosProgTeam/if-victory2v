@@ -17,12 +17,10 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.2);
     padding: 10px;
 
     z-index: 15;
     min-height: $height-gray-box-top;
-    backdrop-filter: grayscale($box-grayscale) blur(3px);
     margin-top: calc(100vh - 50vh - #{$height-gray-box-top} / 2 - 70px);
     @media screen and (max-width: 600px) {
       padding: 50px 10px;
@@ -34,30 +32,11 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
     color: white;
     width: fit-content;
     border-radius: 0 5px 0px 5px;
-    &:before,
-    &:after,
-    &-inner:before,
-    &-inner:after {
-      content: "";
-      display: block;
-      position: absolute;
-      width: 20px;
-      height: 1px;
-      background-color: white;
-    }
-    &:before {
-      top: 0;
-      left: 0px;
-    }
-    &:after {
-      right: 0px;
-      bottom: 0;
-    }
 
     &-inner {
       max-width: 470px;
       width: 100%;
-      padding: 40px;
+      padding: 20px;
       position: relative;
       @media screen and (max-width: 900px) {
         max-width: 400px;
@@ -65,19 +44,6 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
       @media screen and (max-width: 600px) {
         padding: 30px 30px;
         max-width: 300px;
-      }
-      &:before,
-      &:after {
-        width: 1px;
-        height: 20px;
-      }
-      &:after {
-        left: 0;
-        top: 0;
-      }
-      &:before {
-        bottom: 0;
-        right: 0;
       }
     }
   }
@@ -97,15 +63,46 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
   &__title {
     font-weight: 800;
     font-size: 36px;
-    line-height: 35px;
-    margin-bottom: 8px;
-    letter-spacing: 0.005em;
+    line-height: 40px;
+    margin-bottom: 15px;
+    letter-spacing: 0.05em;
     text-transform: capitalize;
     @media screen and (max-width: 900px) {
       font-size: 30px;
+      line-height: 34px;
     }
     @media screen and (max-width: 600px) {
       font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    @media screen and (max-width: 900px) {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  &__donation-btn {
+    background-color: #0369df;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    transition-duration: 0.3s;
+    border-radius: 6px;
+
+    &:hover{
+      background-color: #0371ef;
+      transition-duration: 0.3s;
     }
   }
   &__desc {
@@ -133,7 +130,7 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
     right: 0;
     width: 100%;
     max-width: 100%;
-    height: calc(100vh - 70px + #{$height-gray-box-bottom});
+    height: 100%;
   }
 
   &__bottom {

@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
-import BankAccountsTable from "../BankAccountsTable/BankAccountsTable";
+import BankAccounts from "../BankAccounts/BankAccounts";
 import Img from "../Image";
 import StampImg from "../../../public/images/stamp.webp";
 import CloseIcon from "@mui/icons-material/Close";
@@ -23,7 +23,7 @@ const style = {
   paddingTop: "10px",
 };
 
-export default function BankAccounts({ className }) {
+export default function DonationsModal({ className }) {
   const [openModal, setOpenModal] = React.useState(false);
   const handleOpen = () => setOpenModal(true);
   const handleClose = () => setOpenModal(false);
@@ -80,7 +80,7 @@ export default function BankAccounts({ className }) {
 
           <div
             className="bank-accounts__wrap"
-            style={{ overflowY: "scroll", overflowX: "hidden", height: "100%" }}
+            style={{ height: "100%" }}
           >
             <div className="bank-accounts__top">
               <div className="bank-accounts__top-info">
@@ -113,7 +113,7 @@ export default function BankAccounts({ className }) {
                 <Img src={StampImg} alt={"Штамп"} />
               </div>
             </div>
-            <BankAccountsTable />
+            <BankAccounts />
           </div>
         </Box>
       </Modal>

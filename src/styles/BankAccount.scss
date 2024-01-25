@@ -1,0 +1,29 @@
+.bank-account {
+    border: 3px solid #eff6ff;
+    display: flex;
+    flex-direction: column;
+
+    &__info{
+        display: flex;
+        flex-direction: column; 
+        padding: 15px 10px;
+    }
+
+    &__title {
+        background-color: #eff6ff;
+        padding: 15px 10px;
+        margin: 0px;
+        color: #0059c1
+    }
+
+    &__bank:not(:last-child),
+    &__country-code:not(:last-child),
+    &__identification-code:not(:last-child),
+    &__account-number:not(:last-child) {
+        margin: 0px 0px 5px 0px;
+    }
+}
+
+.bank-account:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}

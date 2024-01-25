@@ -1,5 +1,4 @@
 import React from "react";
-import BankAccounts from "../bankAccounts/BankAccounts";
 import Link from "next/link";
 
 const Nav = ({ ...other }) => {
@@ -27,7 +26,9 @@ const Nav = ({ ...other }) => {
           </Link>
         </li>
         <li className="nav__item">
-          <BankAccounts />
+          <Link href="/donate">
+            <span className="nav__link">Реквізити</span>
+          </Link>
         </li>
       </ul>
     </div>
