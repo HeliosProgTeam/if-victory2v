@@ -16,8 +16,8 @@ export const MainSection = ({ ...props }) => {
             <div className="home__info-inner">
               <h1 className="home__title">
                 ПРИКАРПАТ ГАРАНТ
-                <span style={{fontSize:"30px"}}> Благодiйний фонд</span>
               </h1>
+              <h3 style={{fontSize:"30px"}}>Благодiйний фонд</h3>
               <Link href='/donate'>
                 <a>
                   <button className="home__donation-btn">Підтримати нас</button>
