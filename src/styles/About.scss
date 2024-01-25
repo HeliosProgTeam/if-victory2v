@@ -46,7 +46,7 @@ $laptop-width: 1024px;
     }
   }
 
-  @media (min-width: $laptop-width) {
+  @media (max-width: $laptop-width) {
     &__image{
       margin: 0px 0px 15px 0px;
     }
