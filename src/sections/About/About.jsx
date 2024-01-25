@@ -1,7 +1,7 @@
 import React from "react";
 import Divider from "../../components/divider/Divider";
 import Img from "../../components/Image";
-import AboutImg from "../../../public/images/about.jpg";
+import AboutImg from "../../../public/images/about.webp";
 
 const About = () => {
   return (
