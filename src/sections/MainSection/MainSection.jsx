@@ -2,11 +2,11 @@ import React from "react";
 import BgImg from "../../../public/images/sunflower-bg.webp";
 import Img from "../../components/Image";
 import { useMediaQuery, useTheme } from "@mui/material";
+import Link from "next/link";
 
 export const MainSection = ({ ...props }) => {
   const theme = useTheme();
   const smDown = useMediaQuery(theme.breakpoints.down("sm"));
-  // const mdDown = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <section className="home" id="mainhome" {...props}>
@@ -14,18 +14,19 @@ export const MainSection = ({ ...props }) => {
         <div className="home__info-wrapper">
           <div className="home__info">
             <div className="home__info-inner">
-              {/*<p className="home__desc">Благодiйна органiзацiя</p>*/}
               <h1 className="home__title">
-                Прикарпат Гарант
-                <span style={{fontSize:"30px"}}> Благодiйний фонд</span>
+                ПРИКАРПАТ ГАРАНТ
               </h1>
+              <h3 className="home__subtitle">Благодiйний фонд</h3>
+              <Link href='/donate'>
+                <a>
+                  <button className="home__donation-btn">Підтримати нас</button>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="home__img-bg">
-          {/*{mdDown ? (*/}
-          {/*  <Img src={BgImg} alt="image" width="960px" />*/}
-          {/*) :*/}
           {smDown ? (
             <Img src={BgImg} alt="image" width="600px" />
           ) : (

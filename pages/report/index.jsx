@@ -3,7 +3,7 @@ import { withLayout } from "../../src/layout/Layout";
 
 const receivedHelp = [
   {
-    src: "/videos/video2.mp4",
+    src: "/videos/video2.webm",
     lastname: "",
     name: "Оксана",
     surname: "Миколаївна",
@@ -14,7 +14,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video1.mp4",
+    src: "/videos/video1.webm",
     lastname: "",
     name: "Ігор",
     surname: "Зіновійович",
@@ -22,7 +22,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video3.mp4",
+    src: "/videos/video3.webm",
     lastname: "Захаров",
     name: "Олег",
     surname: "Генадійович",
@@ -30,7 +30,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video4.mp4",
+    src: "/videos/video4.webm",
     lastname: "",
     name: "Василь",
     surname: "Васильович",
@@ -38,7 +38,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video5.mp4",
+    src: "/videos/video5.webm",
     lastname: "Базилюк",
     name: "Людмила",
     surname: "Миколаївна",
@@ -46,7 +46,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video6.mp4",
+    src: "/videos/video6.webm",
     lastname: "",
     name: "Агрофірма",
     surname: "БУКІВНЯНСЬКА",
@@ -55,7 +55,7 @@ const receivedHelp = [
   },
 
   {
-    src: "/videos/video7.mp4",
+    src: "/videos/video7.webm",
     lastname: "",
     name: "Валерій",
     surname: "Валерійович",
@@ -63,7 +63,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video8.mp4",
+    src: "/videos/video8.webm",
     lastname: "",
     name: "Михайло",
     surname: "Ілліч",
@@ -71,7 +71,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video9.mp4",
+    src: "/videos/video9.webm",
     lastname: "",
     name: "Олександр",
     surname: "Іванович",
@@ -79,7 +79,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video10.mp4",
+    src: "/videos/video10.webm",
     lastname: "",
     name: "Іван",
     surname: "Іванович",
@@ -87,7 +87,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video11.mp4",
+    src: "/videos/video11.webm",
     lastname: "",
     name: "Юрій",
     surname: "Юрійович",
@@ -95,7 +95,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video12.mp4",
+    src: "/videos/video12.webm",
     lastname: "",
     name: "Василь",
     surname: "Сергійович",
@@ -103,7 +103,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video13.mp4",
+    src: "/videos/video13.webm",
     lastname: "",
     name: "Володимир",
     surname: "Богданович",
@@ -111,7 +111,7 @@ const receivedHelp = [
     date: "",
   },
   {
-    src: "/videos/video14.mp4",
+    src: "/videos/video14.webm",
     lastname: "",
     name: "Сергій",
     surname: "Олександрович",
@@ -133,31 +133,6 @@ const ReportPage = () => {
         {receivedHelp.map((person) => {
           return (
             <>
-              {/*<div className="people-card">*/}
-              {/*  <div className="people-card__inner">*/}
-              {/*    <div className="people-card__info">*/}
-              {/*      <h3 className={"people-card__name"}>*/}
-              {/*        {person.name} {person.surname}*/}
-              {/*      </h3>*/}
-              {/*      <p className="people-card__desc">*/}
-              {/*        Provided resources: {person.desc}*/}
-              {/*      </p>*/}
-              {/*      <p className="people-card__date">Date: {person.date}</p>*/}
-              {/*    </div>*/}
-              {/*    <video*/}
-              {/*      autoPlay*/}
-              {/*      loop*/}
-              {/*      muted*/}
-              {/*      controls*/}
-              {/*      src={person?.src}*/}
-              {/*      style={{*/}
-              {/*        width: "233px",*/}
-              {/*        height: "390px",*/}
-              {/*      }}*/}
-              {/*    />*/}
-              {/*  </div>*/}
-              {/*</div>*/}
-
               <div className="people-card-wrap">
                 <div className="people-card">
                   <div className="people-card__top">
@@ -165,15 +140,9 @@ const ReportPage = () => {
                     <p>{person.surname}</p>
                   </div>
                   <video
-                    autoPlay
-                    loop
-                    muted
                     controls
                     src={person?.src}
-                    style={{
-                      width: "233px",
-                      height: "411px",
-                    }}
+                    className="people-card__video"
                   />
                 </div>
               </div>

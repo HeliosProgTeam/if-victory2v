@@ -1,13 +1,8 @@
 import React from "react";
-import HandsIcon from "../../../public/images/handsb.svg";
-import Img from "../Image";
 
 const Divider = () => {
   return (
     <div className="divider">
-      <div className="divider__icon">
-        <Img src={HandsIcon} alt={"hands"} />
-      </div>
     </div>
   );
 };

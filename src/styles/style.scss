@@ -35,13 +35,9 @@ h4 {
   margin-bottom: 15px;
 }
 
-section {
-  //min-height: 100vh;
-}
-
 .next-img {
-  height: inherit;
-  width: inherit;
+  height: 100%;
+  width: 100%;
   span {
     height: inherit !important;
     width: inherit !important;
@@ -63,15 +59,13 @@ section {
   align-items: center;
   &__img {
     margin-right: 10px;
-    //width: 70px;
-    //height: 70px;
     width: 50px;
     height: 50px;
   }
   &__title {
-    font-family: "Crimson Pro", serif;
+    font-family: Manrope, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.005em;
   }
@@ -203,8 +197,6 @@ section {
       flex-direction: column;
       gap: 20px;
     }
-    &-info {
-    }
 
     &-text {
       display: flex;
@@ -331,7 +323,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 57px 0;
+  margin: 20px 0 50px 0;
 
   &__icon {
     max-width: 52px;
@@ -351,7 +343,12 @@ section {
     content: "";
     display: block;
     width: calc(100% - 40px);
-    border-bottom: 3px solid #313131;
+  }
+  &:before{
+    border-bottom: 3px solid #759cd0;
+  }
+  &:after{
+    border-bottom: 3px solid #fae572;
   }
 }
 
@@ -360,7 +357,12 @@ section {
 @import "MainSection";
 @import "About";
 @import "Contacts";
-//@import "ReceivedHelp";
 @import "Footer";
-
 @import "Report";
+@import "Privacy";
+@import "Blog";
+@import "BlogEntry";
+@import "Activities";
+@import "BankAccount";
+@import "Donate";
+@import "CopyableText";

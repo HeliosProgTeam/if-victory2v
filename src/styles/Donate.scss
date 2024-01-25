@@ -1,0 +1,21 @@
+.donate {
+    margin: 100px 0px 0px 0px;
+    padding: 0px 20%;
+
+    @media screen and (max-width: 900px) {
+        padding: 0px 10%;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 0px 5%;
+    }
+
+    &__title{
+        text-align: center;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.005em;
+        margin-bottom: 34px;
+    }
+}
