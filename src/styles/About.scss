@@ -42,7 +42,7 @@ $laptop-width: 1024px;
     }
 
     &__text, &__image{
-      width: 40vw;
+      width: 40%;
     }
   }
 
@@ -51,9 +51,4 @@ $laptop-width: 1024px;
     display: flex;
     justify-content: center;
   }
-}
-
-.next-image{
-  width: 100%;
-  height: 100%;
 }
