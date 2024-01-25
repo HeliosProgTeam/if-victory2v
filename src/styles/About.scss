@@ -32,6 +32,12 @@
     }
   }
 
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   &-image{
     margin-bottom: 20px;
     display: flex;
