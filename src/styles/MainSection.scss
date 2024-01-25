@@ -36,7 +36,7 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
     &-inner {
       max-width: 470px;
       width: 100%;
-      padding: 40px;
+      padding: 20px;
       position: relative;
       @media screen and (max-width: 900px) {
         max-width: 400px;
@@ -69,9 +69,11 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
     text-transform: capitalize;
     @media screen and (max-width: 900px) {
       font-size: 30px;
+      line-height: 34px;
     }
     @media screen and (max-width: 600px) {
       font-size: 24px;
+      line-height: 28px;
     }
   }
   &__subtitle {
@@ -83,9 +85,11 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
     text-transform: capitalize;
     @media screen and (max-width: 900px) {
       font-size: 24px;
+      line-height: 28px;
     }
     @media screen and (max-width: 600px) {
       font-size: 20px;
+      line-height: 24px;
     }
   }
   &__donation-btn {
