@@ -17,6 +17,7 @@ export const MainSection = ({ ...props }) => {
                 ПРИКАРПАТ ГАРАНТ
                 <span style={{fontSize:"30px"}}> Благодiйний фонд</span>
               </h1>
+              <button className="home__donation-btn">Підтримати нас</button>
             </div>
           </div>
         </div>

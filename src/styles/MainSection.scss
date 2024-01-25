@@ -74,6 +74,14 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
       font-size: 24px;
     }
   }
+  &__donation-btn {
+    color: #0059c1;
+    cursor: pointer;
+
+    &:hover{
+        color: #0371ef;
+    }
+  }
   &__desc {
     font-weight: 500;
     font-size: 20px;
