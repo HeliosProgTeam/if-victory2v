@@ -75,15 +75,16 @@ $box-gray-background-color: rgba(5, 5, 5, 0.4);
     }
   }
   &__donation-btn {
-    background-color: #0059c1;
+    background-color: #0369df;
     color: white;
     cursor: pointer;
     padding: 10px 15px 10px 15px;
-    transition-duration: 0.25s;
+    transition-duration: 0.3s;
+    border-radius: 6px;
 
     &:hover{
       background-color: #0371ef;
-      transition-duration: 0.25s;
+      transition-duration: 0.3s;
     }
   }
   &__desc {
