@@ -3,7 +3,7 @@ import Divider from "../../components/divider/Divider";
 import Img from "../../components/Image";
 import AboutImg1 from "../../../public/images/about1.webp";
 import AboutImg2 from "../../../public/images/about2.webp";
-import AboutImg3 from "../../../public/images/about2.webp";
+import AboutImg3 from "../../../public/images/about3.webp";
 import Slider from "react-slick";
 
 const sliderSettings = {
