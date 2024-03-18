@@ -23,7 +23,7 @@ const About = () => {
           <div className="about__info">
           <Slider {...sliderSettings}>
             <div className="about__image">
-              <Img src={AboutImg} alt={"Team"} />
+              <Img src={AboutImg1} alt={"Team"} />
             </div>
             <div className="about__image">
               <Img src={AboutImg2} alt={"Team"} />
