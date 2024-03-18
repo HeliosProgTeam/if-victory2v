@@ -1,7 +1,17 @@
 import React from "react";
 import Divider from "../../components/divider/Divider";
 import Img from "../../components/Image";
-import AboutImg from "../../../public/images/about.webp";
+import AboutImg1 from "../../../public/images/about.webp";
+import AboutImg2 from "../../../public/images/about2.webp";
+import Slider from "react-slick";
+
+const sliderSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+};
 
 const About = () => {
   return (
@@ -11,9 +21,14 @@ const About = () => {
           <h2 className={"about__title"}>Про нас</h2>
           <Divider />
           <div className="about__info">
+          <Slider {...sliderSettings}>
             <div className="about__image">
               <Img src={AboutImg} alt={"Team"} />
             </div>
+            <div className="about__image">
+              <Img src={AboutImg2} alt={"Team"} />
+            </div>
+          </Slider>
             <div className="about__text">
               <p className={"about__desc"}>
                 Прикарпат Гарант – це спілка волонтерів, які взяли на себе

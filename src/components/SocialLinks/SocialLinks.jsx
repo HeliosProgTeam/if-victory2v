@@ -2,7 +2,6 @@ import InstagramLogo from '../../../public/images/instagram.svg';
 import FacebookLogo from '../../../public/images/facebook.svg';
 
 export default function SocialLinks() {
-    console.log(InstagramLogo);
     return (
         <div className='links-wrapper'>
             <a href="https://www.facebook.com/share/1XGxQAEjNGLi7CFh/?mibextid=dGKdO6" className="social-link">
