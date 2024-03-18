@@ -44,6 +44,10 @@ $laptop-width: 1024px;
     &__text, &__image{
       width: 45%;
     }
+
+    &__slider {
+      width: 45%;
+    }
   }
 
   @media (max-width: $laptop-width) {

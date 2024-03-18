@@ -21,7 +21,7 @@ const About = () => {
           <h2 className={"about__title"}>Про нас</h2>
           <Divider />
           <div className="about__info">
-          <Slider {...sliderSettings}>
+          <Slider {...sliderSettings} className="about__slider">
             <div className="about__image">
               <Img src={AboutImg1} alt={"Team"} />
             </div>
