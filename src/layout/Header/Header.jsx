@@ -33,10 +33,7 @@ export const Header = ({ ...props }) => {
           <div className="header__nav">
             <Nav />
           </div>
-          <div className="header__phone">
-            {/* <Phone phone="+380 63 624 03 06" /> */}
-            <SocialLinks />
-          </div>
+          <SocialLinks />
         </>
       ) : (
         <div className={"header__menu"}>
