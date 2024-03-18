@@ -1,8 +1,9 @@
 import React from "react";
 import Divider from "../../components/divider/Divider";
 import Img from "../../components/Image";
-import AboutImg1 from "../../../public/images/about.webp";
+import AboutImg1 from "../../../public/images/about1.webp";
 import AboutImg2 from "../../../public/images/about2.webp";
+import AboutImg3 from "../../../public/images/about2.webp";
 import Slider from "react-slick";
 
 const sliderSettings = {
@@ -27,6 +28,9 @@ const About = () => {
             </div>
             <div className="about__image">
               <Img src={AboutImg2} alt={"Team"} />
+            </div>
+            <div className="about__image">
+              <Img src={AboutImg3} alt={"Team"} />
             </div>
           </Slider>
             <div className="about__text">
