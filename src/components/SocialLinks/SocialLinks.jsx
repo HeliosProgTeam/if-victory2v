@@ -1,6 +1,5 @@
 import InstagramLogo from '../../../public/images/instagram.svg';
 import FacebookLogo from '../../../public/images/facebook.svg';
-import '../../styles/SocialLinks.scss';
 
 export default function SocialLinks() {
     console.log(InstagramLogo);
