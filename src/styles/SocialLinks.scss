@@ -7,4 +7,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 45px;
+    width: 45px;
+
+    &:not(:last-child) {
+        margin: 0 25px 0 0;
+    }
 }
