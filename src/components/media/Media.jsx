@@ -14,6 +14,7 @@ const Media = () => {
         </li>
         <li className={"media__item"}>
             <Phone phone="+380 63 624 03 06"/>
+            <Phone phone={"+380 95 664 90 16"}/>
         </li>
       </ul>
     </div>
