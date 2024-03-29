@@ -7,7 +7,6 @@ export const Footer = ({ ...props }) => {
     <footer className={"footer"} id={"contactssection"} {...props}>
       <Links />
       <hr />
-      <FoundationMedia />
     </footer>
   );
 };
