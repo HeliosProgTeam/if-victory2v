@@ -1,6 +1,14 @@
 .social-block {
     padding: 65px 70px;
 
+    @media screen and (max-width: 900px) {
+        padding: 30px 30px 30px 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 30px 15px;
+    }
+
     &__links {
         display: flex;
         justify-content: center;
