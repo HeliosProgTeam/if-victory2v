@@ -3,6 +3,11 @@
     flex-direction: column;
     padding: 65px 70px;
 
+    &__links {
+        display: flex;
+        justify-content: center;
+    }
+
     &__title{
         text-align: center;
         font-weight: 800;
