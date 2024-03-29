@@ -23,8 +23,8 @@ export const Header = ({ ...props }) => {
   };
   return (
     <header className="header" {...props}>
-      <Link href={"/"} >
-        <div className="header__logo" style={{cursor:"pointer"}}>
+      <Link href={"/"}>
+        <div className="header__logo" style={{ cursor: "pointer" }}>
           <Logo />
         </div>
       </Link>
