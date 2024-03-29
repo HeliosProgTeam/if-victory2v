@@ -1,6 +1,6 @@
 import Divider from "../../components/divider/Divider";
-import InstagramLogo from "../../../public/images/instagram.svg";
-import FacebookLogo from "../../../public/images/facebook.svg";
+import InstagramLogo from "../../../public/images/instagram-color.svg";
+import FacebookLogo from "../../../public/images/facebook-color.svg";
 
 export default function SocialBlock() {
   return (
