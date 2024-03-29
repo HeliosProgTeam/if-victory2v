@@ -10,6 +10,14 @@
     height: 45px;
     width: 45px;
 
+    &_large {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        width: 90px;
+    }
+
     &:not(:last-child) {
         margin: 0 25px 0 0;
     }
