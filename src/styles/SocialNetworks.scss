@@ -1,0 +1,25 @@
+.social-block {
+    padding: 65px 70px;
+
+    @media screen and (max-width: 900px) {
+        padding: 30px 30px 30px 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 30px 15px;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title{
+        text-align: center;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.005em;
+        margin-bottom: 34px;
+    }
+}

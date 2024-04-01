@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import FacebookIcon from "@mui/icons-material/Facebook";
 
 const FoundationMedia = () => {
   return (
@@ -12,17 +11,6 @@ const FoundationMedia = () => {
         <Link href="/privacy-policy">
           <span className="foundation__privacy">Політика конфіденційності</span>
         </Link>
-      </div>
-      <div className="foundation__media">
-        <div className="foundation__item">
-          <a
-            href="https://www.facebook.com/profile.php?id=100091625511309"
-            className={"foundation__icon "}
-            aria-label={"Фейсбук фонду"}
-          >
-            <FacebookIcon style={{ fontSize: "inherit" }} />
-          </a>
-        </div>
       </div>
     </div>
   );

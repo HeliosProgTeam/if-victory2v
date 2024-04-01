@@ -7,6 +7,8 @@ import Button from "@mui/material/Button";
 import ListRoundedIcon from "@mui/icons-material/ListRounded";
 import Link from "next/link";
 
+import SocialLinks from "../../components/SocialLinks/SocialLinks";
+
 export const Header = ({ ...props }) => {
   const theme = useTheme();
   const mdDown = useMediaQuery(theme.breakpoints.down("md"));
@@ -21,8 +23,8 @@ export const Header = ({ ...props }) => {
   };
   return (
     <header className="header" {...props}>
-      <Link href={"/"} >
-        <div className="header__logo" style={{cursor:"pointer"}}>
+      <Link href={"/"}>
+        <div className="header__logo" style={{ cursor: "pointer" }}>
           <Logo />
         </div>
       </Link>
@@ -31,9 +33,7 @@ export const Header = ({ ...props }) => {
           <div className="header__nav">
             <Nav />
           </div>
-          <div className="header__phone">
-            <Phone phone="+380 63 624 03 06" />
-          </div>
+          <SocialLinks />
         </>
       ) : (
         <div className={"header__menu"}>

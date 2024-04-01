@@ -44,11 +44,19 @@ $laptop-width: 1024px;
     &__text, &__image{
       width: 45%;
     }
+
+    &__slider {
+      width: 45%;
+    }
   }
 
   @media (max-width: $laptop-width) {
     &__image{
       margin: 0px 0px 15px 0px;
+    }
+
+    &__slider {
+      margin: 0 0 40px 0;
     }
   }
 
